@@ -15,6 +15,7 @@ public class shekar_hackathon_1 {
 
 
         System.out.println("hello test");
+
         System.out.println("average of test 1 and 2 is " + avg12);
         System.out.println("average of test 3 and 4 is " + avg34);
         System.out.println("Final average is " + finalavg);
