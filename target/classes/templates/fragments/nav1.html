@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>
+    <title></title>
+</head>
+<body>
+<!-- Begin navigation fragments -->
+
+<img src="/static/images/chicken.jpg" th:src="@{/images/chicken.jpg}" width="50" height="50" class="d-inline-block align-center" alt="">
+<nav style="position: relative;">
+    <h1 class="logo"><a href="/">P2-Chickens</a></h1>
+    <ul>
+        <!-- <audio source src="unravel.mp3" type="audio/mpeg"  controls autoplay></audio> -->
+        <li><a href="{{url_for('ks.index')}}">Find songs</a></li>
+        <li><a href="{{url_for('api.index')}}">API</a></li>
+        <li><a href="{{url_for('minilab')}}">Scrum Team Minilabs</a></li>
+        <li><a href="{{url_for('about')}}">About the Creators</a></li>
+        <!-- <li><a href="{{ url_for('kpop.index')}}">Kpop</a></li>
+         <li><a href="{{ url_for('jpop.index2')}}">Jpop</a></li> -->
+        <li><button onclick="changeBackground()" name="" class="" type="button" formmethod="get" formtarget="_self"><img src="static/images/easteregg.png" width="20" height="20" style="margin-top:23px; background-color:transparent;" ></button></li>
+    </ul>
+</nav>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        font-size: 100%;
+        font-family: "Roboto",sans-serif;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        background-color: unset;
+    }
+
+
+    button{
+        background-color: transparent;
+    }
+
+
+    a:hover{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    header {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    header:before {
+        content: "";
+        z-index: -1;
+        height: 1080px;
+        width: 1920px;
+        position: fixed;
+        animation: unset;
+        background: linear-gradient(rgba(103, 135, 211, .6), rgba(144, 25, 166, .6)), url("{{background}}") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    header nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav .logo {
+        color: #fff;
+        font-size: 2em;
+        text-transform: uppercase;
+        padding: 20px 20px 10px 20px;
+    }
+
+    header nav .logo a {
+        color: #fff;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav li a {
+        color: #fff;
+        display: block;
+        position: relative;
+        padding: 20px 20px 10px;
+    }
+
+    header nav li a:before,
+    header nav li a:after {
+        content: "";
+        bottom: 0;
+        width: 0px;
+        height: 2px;
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header nav li a:before {
+        right: 50%;
+    }
+
+    header nav li a:after {
+        left: 50%;
+    }
+
+    header nav li a:hover:before,
+    header nav li a:hover:after {
+        width: 50%;
+    }
+
+    @keyframes grow {
+        0% {
+            transform: scale(1) rotate(0deg);
+        }
+        50% {
+            transform: scale(1.6) rotate(10deg);
+        }
+    }
+
+    @-webkit-keyframes grow {
+        0% {
+            transform: scale(1) rotate(0deg);
+        }
+        50% {
+            transform: scale(1.6) rotate(10deg);
+        }
+    }
+
+    @media only screen and (max-width: 290px) {
+        header nav ul {
+            width: 100%;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+
+    .dropdown:hover > .dropdown-menu{
+        display: block;
+    }
+    .dropdown > .dropdown-toggle:active{
+        pointer-events: none;
+    }
+
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:active{
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .dropdown-menu{
+        top:80%;
+    }
+</style>
