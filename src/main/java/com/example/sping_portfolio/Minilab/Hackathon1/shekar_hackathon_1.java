@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.Minilab;
+package com.example.sping_portfolio.Minilab.Hackathon1;
 
 
 public class shekar_hackathon_1 {
