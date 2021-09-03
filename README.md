@@ -13,8 +13,8 @@ project idea: We are going to provide a website of service that will rate news s
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Chris) created tasks for this week in the [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762957)
-- Designer () created the [Wireframes]() for project HTMl pages, worked with Komay
-- Technical lead () created [brainwriting session]() on google docs, where each member collaborated in formating ideas
+- Designer (Sam) created the [Wireframes]() for project HTMl pages, worked with Komay
+- Technical lead (Dylan) created [brainwriting session]() on google docs, where each member collaborated in formating ideas
 ##### Github Assets
 - Navigator () created the [README](https://github.com/Chris-Ru/P2-Chickens#readme) to highlight the ideation process
 - Developer () created [dropdown menu](*) on the navbar to include the wireframe ideas
