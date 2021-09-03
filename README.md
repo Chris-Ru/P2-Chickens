@@ -16,32 +16,32 @@ project idea: We are going to provide a website of service that will rate news s
 - Designer (Sam) created the [Wireframes]() for project HTMl pages, worked with Komay
 - Technical lead (Dylan) created [brainwriting session]() on google docs, where each member collaborated in formating ideas
 ##### Github Assets
-- Navigator () created the [README](https://github.com/Chris-Ru/P2-Chickens#readme) to highlight the ideation process
-- Developer () created [dropdown menu](*) on the navbar to include the wireframe ideas
-- Developer () created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
-- Designer () created 1 minute video on About Us page for runthrough of ideation process
+- Navigator (Shekar) created the [README](https://github.com/Chris-Ru/P2-Chickens#readme) to highlight the ideation process
+- Developer (Chris) created [dropdown menu](*) on the navbar to include the wireframe ideas
+- Developer (Chris) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
+- Designer (Sam) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
 ##### Chris (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Chris.java)
-##### Sam (/2)
+##### Shekar (2/2)
 - Github commits [here](*)
 - Integration of Greet + Birds on individual page [here]()
-##### Dylan (/2)
+##### Sam (2/2)
 - Worked with  on the ideation documentation for [Wireframes]()
 - Integreated individual page [here](*)
-##### Shekar (/2)
-- Collaborated with on [wireframes](), led idea documentation for [Brain Write](), completed scrum board [README ticket]() for this week
+##### Dylan (/2)
+- led idea documentation for [Brain Write](), completed scrum board [README ticket]() for this week
 - Integreated Greet + Birds indivdual page [here]()
 ### Unit 1+2
 ##### Chris (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](*)
-##### Tanmay (5/5)
+##### Dylan (5/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
-##### Komay (5/5)
+##### Sam (5/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
-##### Allen (5/5)
-- Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
+##### Shekar (5/5)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](*)
 
 ## Team Check 0
 #### Tech Talk 0 Tools and Equipment
