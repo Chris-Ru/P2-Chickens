@@ -29,19 +29,19 @@ project idea: We are going to provide a website of service that will rate news s
 - Integration of Greet + Birds on individual page [here]()
 ##### Sam (2/2)
 - Worked with  on the ideation documentation for [Wireframes]()
-- Integreated individual page [here](*)
+- Integrated individual page [here](*)
 ##### Dylan (/2)
 - led idea documentation for [Brain Write](), completed scrum board [README ticket]() for this week
-- Integreated Greet + Birds indivdual page [here]()
+- Integrated Greet + Birds indivdual page [here]()
 ### Unit 1+2
 ##### Chris (5/5)
-- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 ##### Dylan (5/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
 ##### Sam (5/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
 ##### Shekar (5/5)
-- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 
 ## Team Check 0
 #### Tech Talk 0 Tools and Equipment
