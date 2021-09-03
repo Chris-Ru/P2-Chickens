@@ -23,7 +23,7 @@ project idea: We are going to provide a website of service that will rate news s
 ### PBL (Individual)
 ##### Chris (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
-- Integration of Greet + Birds on individual page [here]()
+- Integration of Greet + Birds on individual page [here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Chris.java)
 ##### Sam (/2)
 - Github commits [here](*)
 - Integration of Greet + Birds on individual page [here]()
