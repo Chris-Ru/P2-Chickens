@@ -9,7 +9,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Chris: 10/10
 - Sam: 10/10
 - Dylan: /10
-- Shekar: /10
+- Shekar: 9/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Chris) created tasks for this week in the [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762957)
@@ -36,11 +36,11 @@ project idea: We are going to provide a website of service that will rate news s
 ### Unit 1+2
 ##### Chris (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
-##### Dylan (5/5)
+##### Dylan (/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
-##### Sam (5/5)
+##### Sam (/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
-##### Shekar (5/5)
+##### Shekar (4/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 
 ## Team Check 0
