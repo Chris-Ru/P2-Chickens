@@ -7,7 +7,7 @@ project idea: We are going to provide a website of service that will rate news s
 ## PBL 1-2 + Unit 2
 ### Individual Scores:
 - Chris: 10/10
-- Sam: /10
+- Sam: 10/10
 - Dylan: /10
 - Shekar: /10
 ### PBL (Team, 3/3)
