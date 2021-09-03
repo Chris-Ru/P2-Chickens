@@ -51,6 +51,7 @@
   .face {
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+    width: 100%;
   }
   
   @media screen and (max-width: 500px) {
@@ -65,9 +66,10 @@
       font-family: 'verdana', sans-serif;
       font-weight: 700;
       color:black;
-      font-size:35px;
+      font-size:20px;
+      margin-top: 20px;
   }
-  
+
   .face-text {
       text-align: center;
       text-decoration: none;
