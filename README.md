@@ -5,7 +5,7 @@ project idea: We are going to provide a website of service that will rate news s
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
 ## PBL 1-2 + Unit 2
-### Individual Scores:
+### Individual Scores: Reasoning seen below for each category
 - Chris: 10/10
 - Sam: 10/10
 - Dylan: /10
