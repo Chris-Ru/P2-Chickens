@@ -32,7 +32,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Integrated individual page [here](*)
 ##### Dylan (/2)
 - led idea documentation for [Brain Write](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit), completed scrum board [README ticket]() for this week
-- Integrated Greet + Birds indivdual page [here]()
+- Integrated Greet + Birds indivdual page [Back End](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Dylan.java)|[Front End](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/dylan.html)
 ### Unit 1+2
 ##### Chris (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
