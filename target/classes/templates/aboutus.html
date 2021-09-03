@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title style = "font-size: 30px; color: red">About Us</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../static/about.css" type="text/css">
 </head>
-<body>
-<p> Contributors: Shekar, Chris, Sam, Dylan</p>
-<p> Hello this is our about page. It is a work in progress, but soon, all of the contributors will be featured here</p>
-</body>
+
+    <body class="about-bg">
+        <h1 class="about-header">About Us</h1>
+        <center><p class="about-body">P2 Chickens Scrum Team</p></center>
+
+        <div class="row">
+            <div class="column">
+                <img class="face" src="../static/images/joe5.png" alt="Shekar" style="width:100%">
+                <p class="face-name">Shekar Krishnamoorthy</p>
+                <p class="face-text">Does something</p>
+                <dl>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                </dl>
+            </div>
+            <div class="column">
+                <img class="face" src="../static/images/joe2.png" alt="Chris" style="width:100%">
+                <p class="face-name">Chris Ruben</p>
+                <p class="face-text">Does something</p>
+                <dl>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                </dl>
+            </div>
+            <div class="column">
+                <img class="face" src="../static/images/joe3.jpeg" alt="Sam" style="width:100%">
+                <p class="face-name">Sam Koenig</p>
+                <p class="face-text">Does Something</p>
+                <dl>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                </dl>
+            </div>
+            <div class="column">
+                <img class="face" src="../static/images/joe4.jpeg" alt="Dylan" style="width:100%">
+                <p class="face-name">Dylan Roman</p>
+                <p class="face-text">Does Something</p>
+                <dl>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                    <dt>Big text</dt>
+                    <dd>- Subtext</dd>
+                </dl>
+            </div>
+        </div>
+    </body>
 </html>
