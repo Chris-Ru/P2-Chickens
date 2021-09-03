@@ -31,7 +31,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Worked with  on the ideation documentation for [Wireframes]()
 - Integrated individual page [here](*)
 ##### Dylan (/2)
-- led idea documentation for [Brain Write](), completed scrum board [README ticket]() for this week
+- led idea documentation for [Brain Write](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit), completed scrum board [README ticket]() for this week
 - Integrated Greet + Birds indivdual page [here]()
 ### Unit 1+2
 ##### Chris (5/5)
