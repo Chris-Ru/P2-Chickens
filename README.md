@@ -17,21 +17,21 @@ project idea: We are going to provide a website of service that will rate news s
 - Technical lead (Dylan) created [brainwriting session](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
 ##### Github Assets
 - Navigator (Shekar) created the [README](https://github.com/Chris-Ru/P2-Chickens#readme) to highlight the ideation process
-- Developer (Chris) created [dropdown menu](*) on the navbar to include the wireframe ideas
-- Developer (Chris) created [page](*) for Unit 1 minilab and created [page](*) for integration of Greet + Birds
+- Developer (Chris) created [dropdown menu](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/fragments/nav1.html) on the navbar to include the wireframe ideas
+- Developer (Chris) created [page](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/chris.html) for integration of Greet + Birds
 - Designer (Sam) created 1 minute video on About Us page for runthrough of ideation process
 ### PBL (Individual)
 ##### Chris (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [Back-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Chris.java) | [Front-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/chris.html)
 ##### Shekar (2/2)
-- Github commits [here](*)
+- Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [here]()
 ##### Sam (2/2)
 - Worked with  on the ideation documentation for [Wireframes]()
 - Integrated individual page [here](*)
-##### Dylan (/2)
-- led idea documentation for [Brain Write](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit), completed scrum board [README ticket]() for this week
+##### Dylan (2/2)
+- led idea documentation for [Brain Write](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit)
 - Integrated Greet + Birds indivdual page [Back End](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Dylan.java)|[Front End](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/dylan.html)
 ### Unit 1+2
 ##### Chris (5/5)
@@ -40,7 +40,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
 ##### Sam (/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
-##### Shekar (4/5)
+##### Shekar (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 
 ## Team Check 0
