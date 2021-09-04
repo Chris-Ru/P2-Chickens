@@ -15,6 +15,8 @@ project idea: We are going to provide a website of service that will rate news s
 - Scrum leader (Chris) created tasks for this week in the [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762957)
 - Designer (Sam) created the [Wireframes]() for project HTMl pages, worked with Komay
 - Technical lead (Dylan) created [brainwriting session](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
+- Developer(Chris) figured out technicals (navigation and backend) to help run the site
+
 ##### Github Assets
 - Navigator (Shekar) created the [README](https://github.com/Chris-Ru/P2-Chickens#readme) to highlight the ideation process
 - Developer (Chris) created [dropdown menu](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/fragments/nav1.html) on the navbar to include the wireframe ideas
