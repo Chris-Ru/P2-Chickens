@@ -7,8 +7,8 @@ project idea: We are going to provide a website of service that will rate news s
 ## PBL 1-2 + Unit 2
 ### Individual Scores: Reasoning seen below for each category
 - Chris: 10/10
-- Sam: 10/10
-- Dylan: /10
+- Sam: 9/10
+- Dylan: 10/10
 - Shekar: 9/10
 ### PBL (Team, 3/3)
 ##### Ideation + Design
@@ -24,10 +24,10 @@ project idea: We are going to provide a website of service that will rate news s
 ##### Chris (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [Back-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Chris.java) | [Front-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/chris.html)
-##### Shekar (2/2)
+##### Shekar (1/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [here]()
-##### Sam (2/2)
+##### Sam (1/2)
 - Worked with  on the ideation documentation for [Wireframes]()
 - Integrated individual page [here](*)
 ##### Dylan (2/2)
@@ -40,7 +40,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
 ##### Sam (/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
-##### Shekar (5/5)
+##### Shekar (4/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 
 ## Team Check 0
