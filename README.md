@@ -9,7 +9,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Chris: 10/10 (Led most of the the ideation process, and development process)
 - Sam: 9/10 (Focused more on ideation process more so than the development process)
 - Dylan: 10/10 (was effective in the ideation process and development process)
-- Shekar: 9/10 (worked mostly on individual aspect such as AP units)
+- Shekar: 10/10 (worked mostly on individual aspects acontributed to idea development)
 - [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762960) with scores + tickets
 ### PBL (Team, 3/3)
 ##### Ideation + Design
@@ -27,9 +27,9 @@ project idea: We are going to provide a website of service that will rate news s
 ##### Chris (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [Back-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Chris.java) | [Front-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/chris.html)
-##### Shekar (1/2)
+##### Shekar (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
-- Integration of Greet + Birds on individual page [here]()
+- Integration of Greet + Birds on individual page [here](4e49779c2b4d11a6b35ed53902d7bcb80dd3ca75)
 ##### Sam (2/2)
 - Worked with  on the ideation documentation for [Wireframe](https://drive.google.com/file/d/1l8tLMp7wdCLblpKWSbcXH9VAvsPdxqK8/view?usp=sharing)
 - Integrated individual page [here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Sam.java)
@@ -43,7 +43,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.g7v48cbejq8i), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.gu2xtlbx4g83)
 ##### Sam (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1B9MpB98y3uBAdiyZC9o8GyHRXZesQ6923DT38YdIaZo/edit?usp=sharing), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1mMcqh5nmPAW4bdrhRRllFdM-g_hLXETnEFeTtqOW5qQ/edit?usp=sharing)
-##### Shekar (4/5)
+##### Shekar (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 
 ## Team Check 0
