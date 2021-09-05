@@ -14,7 +14,7 @@ project idea: We are going to provide a website of service that will rate news s
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Chris) created tasks for this week in the [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762957)
-- Designer (Sam) created the [Wireframes]() for project HTMl pages, worked with Komay
+- Designer (Sam) created the [Wireframe](https://drive.google.com/file/d/1l8tLMp7wdCLblpKWSbcXH9VAvsPdxqK8/view?usp=sharing) for project HTML pages, worked with Komay
 - Technical lead (Dylan) created [brainwriting session](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit?usp=sharing) on google docs, where each member collaborated in formating ideas
 - Developer(Chris) figured out technicals (navigation and backend) to help run the site
 
@@ -22,7 +22,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Navigator (Shekar) created the [README](https://github.com/Chris-Ru/P2-Chickens#readme) to highlight the ideation process
 - Developer (Chris) created [dropdown menu](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/fragments/nav1.html) on the navbar to include the wireframe ideas
 - Developer (Chris) created [page](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/chris.html) for integration of Greet + Birds
-- Designer (Sam) created 1 minute video on About Us page for runthrough of ideation process
+- Designer (Sam) created [1 minute video](https://youtu.be/mc613AcgO-c) on About Us page for runthrough of ideation process
 ### PBL (Individual)
 ##### Chris (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
@@ -30,9 +30,9 @@ project idea: We are going to provide a website of service that will rate news s
 ##### Shekar (1/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
 - Integration of Greet + Birds on individual page [here]()
-##### Sam (1/2)
-- Worked with  on the ideation documentation for [Wireframes]()
-- Integrated individual page [here](*)
+##### Sam (2/2)
+- Worked with  on the ideation documentation for [Wireframe](https://drive.google.com/file/d/1l8tLMp7wdCLblpKWSbcXH9VAvsPdxqK8/view?usp=sharing)
+- Integrated individual page [here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Sam.java)
 ##### Dylan (2/2)
 - led idea documentation for [Brain Write](https://docs.google.com/document/d/1mYsjfVJ7MT8ZTlEXQbhimb51pX7E9zxpSdVgyFvfeAk/edit)
 - Integrated Greet + Birds indivdual page [Back End](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Dylan.java)|[Front End](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/dylan.html)
@@ -41,8 +41,8 @@ project idea: We are going to provide a website of service that will rate news s
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 ##### Dylan (/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.g7v48cbejq8i), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.gu2xtlbx4g83)
-##### Sam (/5)
-- Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
+##### Sam (5/5)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1B9MpB98y3uBAdiyZC9o8GyHRXZesQ6923DT38YdIaZo/edit?usp=sharing), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1mMcqh5nmPAW4bdrhRRllFdM-g_hLXETnEFeTtqOW5qQ/edit?usp=sharing)
 ##### Shekar (4/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 
