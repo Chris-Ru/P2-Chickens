@@ -29,7 +29,7 @@ project idea: We are going to provide a website of service that will rate news s
 - Integration of Greet + Birds on individual page [Back-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Chris.java) | [Front-end here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/chris.html)
 ##### Shekar (2/2)
 - Github commits [here](https://github.com/Chris-Ru/P2-Chickens/commits/main)
-- Integration of Greet + Birds on individual page [here](4e49779c2b4d11a6b35ed53902d7bcb80dd3ca75)
+- Integration of Greet + Birds on individual page [here](https://github.com/Chris-Ru/P2-Chickens/commit/4e49779c2b4d11a6b35ed53902d7bcb80dd3ca75)
 ##### Sam (2/2)
 - Worked with  on the ideation documentation for [Wireframe](https://drive.google.com/file/d/1l8tLMp7wdCLblpKWSbcXH9VAvsPdxqK8/view?usp=sharing)
 - Integrated individual page [here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/individual/Sam.java)
