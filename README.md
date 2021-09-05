@@ -39,7 +39,7 @@ project idea: We are going to provide a website of service that will rate news s
 ##### Chris (5/5)
 - Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 ##### Dylan (/5)
-- Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
+- Unit 1 test corrections and notes [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.g7v48cbejq8i), Unit 2 test corrections and notes [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.gu2xtlbx4g83)
 ##### Sam (/5)
 - Unit 1 test corrections and notes [here](), Unit 2 test corrections and notes [here](*)
 ##### Shekar (4/5)
