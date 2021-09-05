@@ -6,10 +6,11 @@ project idea: We are going to provide a website of service that will rate news s
 
 ## PBL 1-2 + Unit 2
 ### Individual Scores: Reasoning seen below for each category
-- Chris: 10/10
-- Sam: 9/10
-- Dylan: 10/10
-- Shekar: 9/10
+- Chris: 10/10 (Led most of the the ideation process, and development process)
+- Sam: 9/10 (Focused more on ideation process more so than the development process)
+- Dylan: 10/10 (was effective in the ideation process and development process)
+- Shekar: 9/10 (worked mostly on individual aspect such as AP units)
+- [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762960) with scores + tickets
 ### PBL (Team, 3/3)
 ##### Ideation + Design
 - Scrum leader (Chris) created tasks for this week in the [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1#column-15762957)
