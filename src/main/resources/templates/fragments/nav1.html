@@ -1,22 +1,24 @@
 <!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title></title>
+    <title>...</title>
 </head>
 <body>
 <!-- Begin navigation fragments -->
-
-<img src="/static/images/chicken.jpg" th:src="@{/images/chicken.jpg}" width="50" height="50" class="d-inline-block align-center" alt="">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
+    <a class="navbar-brand" href="localhost:8080">
+        <img src="/static/images/ncs_logo.png" th:src="@{/images/chicken.jpg}" width="50" height="50" class="d-inline-block align-center" alt="">
+        P2-Chickens
+    </a>
 <nav style="position: relative;">
     <h1 class="logo"><a href="/">P2-Chickens</a></h1>
     <ul>
-        <!-- <audio source src="unravel.mp3" type="audio/mpeg"  controls autoplay></audio> -->
-        <li><a href="{{url_for('ks.index')}}">Find songs</a></li>
-        <li><a href="{{url_for('api.index')}}">API</a></li>
-        <li><a href="{{url_for('minilab')}}">Scrum Team Minilabs</a></li>
-        <li><a href="{{url_for('about')}}">About the Creators</a></li>
-        <!-- <li><a href="{{ url_for('kpop.index')}}">Kpop</a></li>
-         <li><a href="{{ url_for('jpop.index2')}}">Jpop</a></li> -->
-        <li><button onclick="changeBackground()" name="" class="" type="button" formmethod="get" formtarget="_self"><img src="static/images/easteregg.png" width="20" height="20" style="margin-top:23px; background-color:transparent;" ></button></li>
+         <li><a href="">Find songs</a></li>
+        <li><a href="">API</a></li>
+        <li><a href="/aboutus">Scrum Team Minilabs</a></li>
+        <li><a href="">About the Creators</a></li>
+         <li><a href="">Kpop</a></li>
+         <li><a href="">Jpop</a></li>
     </ul>
 </nav>
 
