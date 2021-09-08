@@ -1,5 +1,5 @@
 html, body {
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .about-bg {
