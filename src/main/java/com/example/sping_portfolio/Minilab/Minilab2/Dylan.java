@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.Minilab.Minilab2;
 
-public class Car {
+class Car {
 
     //protected data
     private String make;
