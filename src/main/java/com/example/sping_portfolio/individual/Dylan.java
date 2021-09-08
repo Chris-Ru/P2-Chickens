@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Dylan {
     @GetMapping("/dylan")
-    public String dylan() {return "dylan";}
+    public String dylan() {return "individual/dylan";}
 }

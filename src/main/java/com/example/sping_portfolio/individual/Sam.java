@@ -6,5 +6,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class Sam {
     @GetMapping("/sam")
-    public String sam() {return "sam";}
+    public String sam() {return "individual/sam";}
 }
