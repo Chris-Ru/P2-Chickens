@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.Minilab.Minilab2;
 
-public class Computer {
+public class Chris {
 
     //protected data
     private String Case;
@@ -8,7 +8,7 @@ public class Computer {
     private int ram;
 
     //constructor
-    public Computer(String Case, String cpu_type, int ram)
+    public Chris(String Case, String cpu_type, int ram)
     {
         this.Case = Case;
         this.cpu_type = cpu_type;
@@ -43,7 +43,7 @@ public class Computer {
     //call class
     public static void main(String[] args)
     {
-        Computer myComputer = new Computer("NZXT","Ryzen", 8);
+        Chris myComputer = new Chris("NZXT","Ryzen", 8);
         System.out.println("Case: " + myComputer.getCase());
         System.out.println("Cpu-type: " + myComputer.getCpu());
         System.out.println("Ram amount: " + myComputer.getRam());
