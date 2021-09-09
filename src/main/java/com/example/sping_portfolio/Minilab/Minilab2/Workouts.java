@@ -1,6 +1,7 @@
 package com.example.sping_portfolio.Minilab.Minilab2;
 
 public class Workouts {
+    private static final int oil = 0;
     //protected data
     private String muscle;
     private int reps;
@@ -16,17 +17,17 @@ public class Workouts {
 
     //get protected data
 
-    public String getMake()
+    public String getMake(String make)
     {
         return make;
     }
 
-    public String getModel()
+    public String getModel(String model)
     {
         return model;
     }
 
-    public int getOil()
+    public int getOil(int oil)
     {
         return oil;
     }
