@@ -83,3 +83,12 @@ html, body {
       color:black;
       font-size:25px;
   }
+
+  .cnav {
+    background-color: rgba(43, 43, 43, 0.8);
+    backdrop-filter: blur(7px);
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+  }

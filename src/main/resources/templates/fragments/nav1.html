@@ -2,12 +2,13 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>...</title>
+    <link rel="stylesheet" href="../../static/styles/styles.css">
 </head>
 <body>
 <!-- Begin navigation fragments -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
+<nav class="cnav navbar navbar-expand-lg" th:fragment="header">
     <a class="navbar-brand" href="./">
-        <img src="/static/images/chicken.png" th:src="@{/images/chicken.jpg}" width="50" height="50" class="d-inline-block align-center" alt="">
+        <img src="/static/images/logo.png" th:src="@{/images/logo.png}" width="auto" height="50" class="d-inline-block align-center" alt="logo">
         P2-Chickens
     </a>
     <!-- Bootstrap menus -->
