@@ -4,7 +4,7 @@
 <head>
     <div th:replace="fragments/head :: header"></div>
     <div layout:fragment="metadata"></div>
-    <link rel="stylesheet" href="../static/styles/styles.css">
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
 </head>
 
 <body>

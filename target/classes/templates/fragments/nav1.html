@@ -2,24 +2,22 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>...</title>
-    <link rel="stylesheet" href="../../static/styles/styles.css">
-</head>
-<body>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></head>
 <!-- Begin navigation fragments -->
 <nav class="cnav navbar navbar-expand-lg" th:fragment="header">
     <a class="navbar-brand" href="./">
         <img src="/static/images/logo.png" th:src="@{/images/logo.png}" width="auto" height="50" class="d-inline-block align-center" alt="logo">
-        P2-Chickens
+        <h3 class="nav-link navtext">P2-Chickens</h3>
     </a>
     <!-- Bootstrap menus -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <!--root menu -->
             <li class="nav-item active">
-                <a class="nav-link" href="/aboutus">About Us <span class="sr-only">(current)</span></a>
+                <a class="nav-link navtext" href="/aboutus">About Us <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Greet + Bird
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -31,7 +29,7 @@
                 </div>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarTPT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbarTPT" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Journals
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">

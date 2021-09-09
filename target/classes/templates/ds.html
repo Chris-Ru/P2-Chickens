@@ -8,10 +8,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <title>Dylan + Sam Journal</title>
-  <link rel="stylesheet" href="../static/styles/styles.css" type="text/css">
+  <link th:href="@{/styles/styles.css}" rel="stylesheet" />
 </div></head>
 
-<body class="about-bg"><div layout:fragment="content" th:remove="tag">
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vQzZnqeaA_eNWx_cWYsHBjfLWOL9KrdOjByjZmuXxHEaiCh0TPmCd1twCfOULQjOqdgSQ2-42k4NeO_/pub?embedded=true" style="width: 1920px;height: 875px; overflow: hidden;"></iframe>
+<body><div layout:fragment="content" th:remove="tag">
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vQzZnqeaA_eNWx_cWYsHBjfLWOL9KrdOjByjZmuXxHEaiCh0TPmCd1twCfOULQjOqdgSQ2-42k4NeO_/pub?embedded=true" style="width: 1920px;height: 875px; overflow: hidden; border: none;"></iframe>
 </div></body>
 </html>
