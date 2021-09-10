@@ -5,7 +5,7 @@ project idea: We are going to provide a website of service that will rate news s
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
 ## Pop Quiz
-P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), GitHub repo contributors
+P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), [GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)
 
 - Chris, Chris-Ru
 - Sam,  Samkoenig9
