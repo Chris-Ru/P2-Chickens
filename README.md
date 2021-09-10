@@ -10,10 +10,10 @@ Pairs and Journals
 [Chris-Shekar journal](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
 [sam-dylan journal]()
 
-Chris, #72892271
-Sam,  #72891935
-Dylan, #72881860
-Shekar,  #72948731
+- Chris, #72892271
+- Sam,  #72891935
+- Dylan, #72881860
+- Shekar,  #72948731
 
 Details help on Individual data 
 1. Filter Tasks by individual (assignee) - [Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
