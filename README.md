@@ -7,10 +7,10 @@ project idea: We are going to provide a website of service that will rate news s
 ## Pop Quiz
 P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), GitHub repo contributors
 
-- Chris, #72892271
-- Sam,  #72891935
-- Dylan, #72881860
-- Shekar,  #72948731
+- Chris, Chris-Ru
+- Sam,  Samkoenig9
+- Dylan, dylanroman
+- Shekar,  shekark642
 
 Details help on Individual data 
 
