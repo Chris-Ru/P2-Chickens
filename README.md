@@ -6,9 +6,6 @@ project idea: We are going to provide a website of service that will rate news s
 
 Pop Quiz
 P2-Chickens, [Scrum Board](), GitHub repo contributors
-- Pairs and Journals
-[Chris-Shekar journal](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
-[sam-dylan journal](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
 - Chris, #72892271
 - Sam,  #72891935
