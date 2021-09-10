@@ -16,13 +16,13 @@ Dylan, #72881860
 Shekar,  #72948731
 
 Details help on Individual data 
-1. Filter Tasks by individual (assignee) - [Chris](), [Sam](), [Dylan](), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
+1. Filter Tasks by individual (assignee) - [Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
 
-2. Filter Scrum board by individual (assignee) - [Chris](), [Sam](), [Dylan](), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
+2. Filter Scrum board by individual (assignee) - [Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
 
-3. Filter GitHub commits by contributor - [Chris](), [Sam](), [Dylan](), [Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)
+3. Filter GitHub commits by contributor - [Chris](https://github.com/Chris-Ru/P2-Chickens/commits?author=Chris-Ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/commits?author=dylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)
 
-4. Show GitHub profile for individual - [Chris](), [Sam](), [Dylan](), [Shekar](https://github.com/shekark642)
+4. Show GitHub profile for individual - [Chris](https://github.com/Chris-Ru), [Sam](https://github.com/samkoenig9), [Dylan](https://github.com/dylanroman), [Shekar](https://github.com/shekark642)
 
 
 ## PBL 1-2 + Unit 2
