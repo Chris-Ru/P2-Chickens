@@ -5,10 +5,11 @@
     <link th:href="@{/styles/styles.css}" rel="stylesheet" /></head>
 <!-- Begin navigation fragments -->
 <nav class="cnav navbar navbar-expand-lg" th:fragment="header">
-    <a class="navbar-brand" href="./">
+    <a href="./">
         <img src="/static/images/logo.png" th:src="@{/images/logo.png}" width="auto" height="50" class="d-inline-block align-center" alt="logo">
-        <h3 class="nav-link navtext">P2-Chickens</h3>
-    </a>
+    </a>   
+    <a href="/" style="text-decoration: none;"><h3 class="nav-link navtext" >P2-Chickens</h3></a>
+    
     <!-- Bootstrap menus -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
