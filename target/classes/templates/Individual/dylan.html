@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></head>
-<body>
+    <title>Dylan's Individual Page</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
 <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
 <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
 <script>
