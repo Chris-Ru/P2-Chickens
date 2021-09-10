@@ -4,6 +4,27 @@ project idea: We are going to provide a website of service that will rate news s
 - [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
+Pop Quiz
+P2-Chickens, [Scrum Board](), GitHub repo contributors
+Pairs and Journals
+[Chris-Shekar journal](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit)
+[sam-dylan journal]()
+
+Chris, #72892271
+Sam,  #72891935
+Dylan, #72881860
+Shekar,  #72948731
+
+Details help on Individual data 
+1. Filter Tasks by individual (assignee) - [Chris](), [Sam](), [Dylan](), [Shekar]()
+
+2. Filter Scrum board by individual (assignee) - [Chris](), [Sam](), [Dylan](), [Shekar]()
+
+3. Filter GitHub commits by contributor - [Chris](), [Sam](), [Dylan](), [Shekar]()
+
+4. Show GitHub profile for individual - [Chris](), [Sam](), [Dylan](), [Shekar]()
+
+
 ## PBL 1-2 + Unit 2
 ### Individual Scores: Reasoning seen below for each category
 - Chris: 10/10 (Led most of the the ideation process, and development process)
