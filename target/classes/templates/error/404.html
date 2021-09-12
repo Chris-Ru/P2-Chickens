@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
+      layout:decorate="~{layout1}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
     <!-- Start of head content specific to page -->
@@ -20,7 +20,7 @@
             <div class="jumbotron jumbotron-fluid" style="text-align: center; border-radius: 20px;">
                 <h2>This page does not exist.</h2>
                 <a href="/">Go Home</a>
-                <img src="../../static/images/burnt.jpeg" alt="burntchicken">
+                <img src="/static/images/burnt.jpeg" th:src="@{/images/burnt.jpeg}" width="50" height="50" alt="burntchicken">
             </div>
 
         </div>

@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller  // HTTP requests are handled as a controller, using the @Controller annotation
 public class binary {
     @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String binary() {
-        return "minilab2"; // returns HTML VIEW (greeting)
+    public String Binary(@RequestParam(name="bits", required=false, defaultValue="8") int bits, Model model) {
+        model.addAttribute("bits", bits); // MODEL is passed to html
+        return "minilab2"; // returns HTML VIEW ()
     }
 }
