@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.Minilab.Minilab2;
+package com.example.sping_portfolio.Minilab.Hackathon2;
 
 class Computer {
 
