@@ -8,32 +8,32 @@ project idea: We are going to provide a website of service that will rate news s
 Table for this week's tickets
 |Issue|Highlights|
 |:----:|:----:|
-|[Bootstrap]()|Extened the 3x3 bootstrap design to fit a calendar design|
+|[Bootstrap](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/NewsSource.html)|Extened the 3x3 bootstrap design to fit a project design|
 |[Navbar](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/fragments/nav1.html#L7-L47)|Made navbar dark to fit theme and fit to any page since it is a Neutral color|
 
-### Individual Scores:
-- Chris: /10
-- Shekar: /10
-- Sam: 10/10
-- Dylan: /10
-
-### MiniLabs
-- [Minilab 1](*)
-- [Minilab 2](*)
 ### PBL (Team, 5/5)
 ##### HTML
-- Established a chill vibe website with [...](*) and [...](*)
-- Changed [navbar to be dark](*) to emphasize the background
-- add picture example
-##### Thymeleaf
-- Incorporated a grid like design to use as the table for the website [here](*)
-- Add picture example
+- Established a chill vibe website with [Surfs Up theme](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/aboutus.html) for Aboutus page
+- Changed [navbar to be dark](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/fragments/nav1.html) to emphasize the background
 
 ### Indiviudal 
-- Chris unit 3 notes + correctons not [here](*)
+- Chris unit 3 notes + correctons [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=kix.4y1uvhqdhg3h)
 - Shekar unit 3 notes + corrections [here](*)
 - Sam Unit 3 notes + corrections [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit?usp=sharing)
 - Dylan Unit 3 notes + corrections [here](*)
+
+### Individual Scores:
+- Chris: 10/10
+- Shekar: 10/10
+- Sam: 10/10
+- Dylan: 10/10
+
+##### Thymeleaf
+- Incorporated a grid like design from bootstrap to organize a prototype about us page [here](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/NewsSource.html)
+
+### MiniLabs
+- [Minilab 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/controllers/minilabs.java#L12-L18)
+- [Minilab 2](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/controllers/minilabs.java#L20-L24)
 
 ## Pop Quiz
 P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), [GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)
