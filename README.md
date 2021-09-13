@@ -14,7 +14,7 @@ Table for this week's tickets
 ### Individual Scores:
 - Chris: /10
 - Shekar: /10
-- Sam: /10
+- Sam: 10/10
 - Dylan: /10
 
 ### MiniLabs
@@ -32,14 +32,14 @@ Table for this week's tickets
 ### Indiviudal 
 - Chris unit 3 notes + correctons not [here](*)
 - Shekar unit 3 notes + corrections [here](*)
-- Sam Unit 3 notes + corrections [here](*)
+- Sam Unit 3 notes + corrections [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit?usp=sharing)
 - Dylan Unit 3 notes + corrections [here](*)
 
 ## Pop Quiz
 P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), [GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)
 
 - Chris, Chris-Ru
-- Sam,  Samkoenig9
+- Sam,  samkoenig9
 - Dylan, dylanroman
 - Shekar,  shekark642
 
