@@ -2,7 +2,6 @@
 package com.example.sping_portfolio.Minilab.Hackathon2.Shekar;
 
 public class Workout {
-    private static final int oil = 0;
     //protected data
     private String muscle;
     private int reps;
