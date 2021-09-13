@@ -106,6 +106,18 @@
   <h1 class="text-center">Binary Math with Conversions</h1>
   <div class="container">
     <div class="row justify-content-md-center">
+      <form method="get" action="">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Bits</label>
+          <div class="form"></div>
+          <input type="number" name="bits" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter bits #" style="overflow:hidden;">
+          <button type="submit">Submit</button>
+        </div>
+
+      </form>
+    </div>
+    <div class="row justify-content-md-center">
+
 
       <div class="col-8">
         <table class="table">
@@ -141,9 +153,7 @@
 
           <tr>
             <th:block th:each="i: ${#numbers.sequence(0, bits-1)}">
-              <td><label>
-                <input type='text' th:id="'digit' + ${i}" Value="0" size="1" readonly>
-              </label></td>
+              <td><input type='text' th:id="'digit' + ${i}" Value="0" size="1" readonly /></td>
             </th:block>
           </tr>
 
