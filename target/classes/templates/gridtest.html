@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>gridtest</title>
+    <!-- Import Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"/>
+
+</div></head>
+<body><div layout:fragment="content" th:remove="tag">
+
+    <table class="table">
+        <!-- Head -->
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Article Name</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Number of Reviews</th>
+            </tr>
+        </thead>
+        <!-- Body -->
+        <tbody>
+        <tr>
+            <th scope ="row"></th>
+            <td>1</td>
+            <td th:text="${source1name}"></td>
+            <td th:text="${source1rating}"></td>
+            <td th:text="${source1total}"></td>
+        </tr>
+
+        <tr>
+            <th scope ="row"></th>
+            <td>2</td>
+            <td th:text="${source2name}"></td>
+            <td th:text="${source2rating}"></td>
+            <td th:text="${source2total}"></td>
+        </tr>
+
+        <tr>
+            <th scope ="row"></th>
+            <td>3</td>
+            <td th:text="${source3name}"></td>
+            <td th:text="${source3rating}"></td>
+            <td th:text="${source3total}"></td>
+        </tr>
+
+        </tbody>
+    </table>
+
+</div></body>
+</html>
