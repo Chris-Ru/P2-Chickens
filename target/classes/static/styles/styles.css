@@ -1,5 +1,7 @@
 html, body {
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 100%;
 }
 
 body{
@@ -133,6 +135,8 @@ body{
 .arrow {
   text-align: center;
   margin: 8% 0;
+  color: white;
+  text-decoration: none;
 }
 
 .bounce {
@@ -156,6 +160,13 @@ body{
 .block1 {
   color:white;
   background-color: #404040;
+  height: 100vh;
+  position: relative;
+  top: -70px;
+}
+
+.block2 {
+  background-color: rgb(184, 184, 184);
   height: 100vh;
   position: relative;
   top: -70px;
