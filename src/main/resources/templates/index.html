@@ -10,25 +10,36 @@
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body style = "color: white; background-color: #404040"><div layout:fragment="content" th:remove="tag">
-    <!-- Start of body content specific to page -->
+<body>
     <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1><strong>Period 2 Chickens</strong></h1>
-        <p></p>
-        <h3><strong>Welcome to our site</strong></h3>
-        <ol>
-            <li>Our Project is meant to help regular people find and identify fake news in today's society </li>
-            <li>We will give information, tips, tricks, and examples in order to help you</li>
-            <li>Our resources can be used to learn so that you too will be able to detect fake and bias news</li>
-        </ol>
-        <h3><strong>Why do we need this?</strong></h3>
-        <ol>
-            <li>Fake and Bias News is a huge problem in today's society</li>
-            <li>Everyone has an agenda, and they conform and create stories to promote their cause</li>
-            <li>Don't get caught in this trap!</li>
+        <div layout:fragment="content" th:remove="tag">
+            <div class="block1">
+                <div class="welcome">
+                    <p class="welcome-text">Welcome to</p>
+                    <p></p>
+                    <p class="welcome-subtext">Period 2 Chickens</p>
+                    <div class="arrow bounce">
+                        <p class="fa fa-arrow-down fa-2x" style="text-decoration: none;"></p>
+                    </div>
+                </div>
+            </div>
+        
+    
+            
+            <ol>
+                <li>Our Project is meant to help regular people find and identify fake news in today's society </li>
+                <li>We will give information, tips, tricks, and examples in order to help you</li>
+                <li>Our resources can be used to learn so that you too will be able to detect fake and bias news</li>
+            </ol>
+            <h3><strong>Why do we need this?</strong></h3>
+            <ol>
+                <li>Fake and Bias News is a huge problem in today's society</li>
+                <li>Everyone has an agenda, and they conform and create stories to promote their cause</li>
+                <li>Don't get caught in this trap!</li>
 
-        </ol>
+            </ol>
+        </div>
     </div>
-    <!-- End of body content specific to page -->
-</div></body>
+        <!-- End of body content specific to page -->
+</body>
 </html>

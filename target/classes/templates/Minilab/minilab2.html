@@ -7,7 +7,7 @@
 <div layout:fragment="metadata" th:with="bits=${bits}" th:remove="tag">
   <title>Binary page</title>
   <script>
-    const BITS = [[${bits}]];
+    const BITS = [[{bits}]];
     const MAX = 2 ** BITS - 1;
     const MSG_ON = "Turn on";
     const IMAGE_ON = "/images/bulb_on.gif";
@@ -103,7 +103,7 @@
 
 <!-- <body> -->
 <div layout:fragment="content" th:with="bits=${bits}" th:remove="tag">
-  <h1 class="text-center">Binary Math with Conversions</h1>
+  <h1 class="text-center" style="margin-top:15px">Binary Math with Conversions</h1>
   <div class="container">
     <div class="row justify-content-md-center">
       <form method="get" action="">
