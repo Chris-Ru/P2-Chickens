@@ -1,21 +1,23 @@
 package com.example.sping_portfolio.functions;
 
 public class average {
-    //data
+    //protected data
     private int values[];
 
     //constructor
-    //public average(int values) {
-        //this.values = values;
-    //}
+    public average(int[] values){
+        this.values = values;
+    }
 
     //method
-    public void average(){
+    public double avg(){
+        //create sum variable
         double valsum = 0;
-        for (int i = 0; i < this.values.length; i++){
-            valsum += i;
+        //sum of array
+        for (int x = 0; x<this.values.length; x++){
+            valsum += this.values[x];
         }
         double valavg = valsum/this.values.length;
+        return valavg;
     }
 }
-
