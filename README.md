@@ -23,8 +23,8 @@ project idea: We are going to provide a website of service that will rate news s
 #### Unit 4 and Journal is 5 points
 - Chris unit 4 notes + correctons [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=kix.5cfot1nwfhoc)
 - Shekar unit 4 notes + corrections [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.mibjsyanckm6)
-- Sam Unit 4 notes + corrections [here](*)
-- Dylan Unit 4 notes + corrections [here](*)
+- Sam Unit 4 notes + corrections [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.dms46gxcapdu)
+- Dylan Unit 4 notes + corrections [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.4w8zu3c4tgi5)
 
 ## Prototype Check plus Unit 3
 Table for this week's tickets
