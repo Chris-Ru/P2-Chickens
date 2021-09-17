@@ -9,10 +9,16 @@ project idea: We are going to provide a website of service that will rate news s
 ### 10 Points (Scrum Master | Self Grade)
 
 #### Team and Scrum Master Planning by Wednesday 1 point
-- **_0.9/1_**
-#### Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project.   **_0.9/1_**
-#### Individual Technicals 2 point.  Code commits is required on something Technical.   **_0.9/1_**
+- [**_0.9/1_**](https://github.com/Chris-Ru/P2-Chickens/issues/24#issuecomment-920214086)
+#### Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project.   
+- **_*/2_**
+#### Individual Technicals 2 point.  Code commits is required on something Technical.   
+- **_*/2_**
 #### Unit 4 and Journal is 5 points
+- Chris unit 4 notes + correctons [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=kix.5cfot1nwfhoc)
+- Shekar unit 4 notes + corrections [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.mibjsyanckm6)
+- Sam Unit 4 notes + corrections [here](*)
+- Dylan Unit 4 notes + corrections [here](*)
 
 ## Prototype Check plus Unit 3
 Table for this week's tickets
