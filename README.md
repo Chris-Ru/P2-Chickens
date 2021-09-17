@@ -16,7 +16,7 @@ project idea: We are going to provide a website of service that will rate news s
 
 #### Individual Technicals 2 point.  Code commits is required on something Technical.   
 - Chris Individual Technical [here](https://github.com/Chris-Ru/P2-Chickens/commit/04f1be26e02a1415fb193d34dc57d47072f72c72) **_2/2_**
-- Shekar Individual Technical [https://github.com/Chris-Ru/P2-Chickens/commit/cb20245b2c04cab3de4a9269c94a56948ed0f184](*) **_2/2_**
+- Shekar Individual Technical [here](https://github.com/Chris-Ru/P2-Chickens/commit/cb20245b2c04cab3de4a9269c94a56948ed0f184) **_2/2_**
 - Sam Individual Technical [here](*) **_*/2_**
 - Dylan Individual Technical [here](https://github.com/Chris-Ru/P2-Chickens/commit/270033c6b48c40440596a4d89c6ee5281f0b792a) **_2/2_**
 
