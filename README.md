@@ -26,6 +26,12 @@ project idea: We are going to provide a website of service that will rate news s
 - Sam Unit 4 notes + corrections [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.dms46gxcapdu)
 - Dylan Unit 4 notes + corrections [here](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit#bookmark=id.4w8zu3c4tgi5)
 
+#### Planning Requirements
+- Developers. [TT3 Binary Math]() must be included in project with all "Hack" suggestions.
+- Designers. Ensure there is a Design or Research asset for prototyping work.
+- Navigators/Testors. Build a video showing design and runtime of prototype(s).
+- Groomers/Developers. Groom Scrum Board before delivery, moving Issues to Review, and including Tangible Assets.
+
 ## Prototype Check plus Unit 3
 Table for this week's tickets
 |Issue|Highlights|
