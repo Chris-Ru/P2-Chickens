@@ -6,12 +6,12 @@ project idea: We are going to provide a website of service that will rate news s
 
 ## Prototype Sprint End plus Unit 4
 
-#### 10 Points (Scrum Master / Self Grade)
+### 10 Points (Scrum Master | Self Grade)
 
-- Team and Scrum Master Planning by Wednesday 1 point
-- Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project.
-- Individual Technicals 2 point.  Code commits is required on something Technical.
-- Unit 4 and Journal is 5 points
+#### Team and Scrum Master Planning by Wednesday 1 point  **_0.9/1_**
+#### Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project.   **_0.9/1_**
+#### Individual Technicals 2 point.  Code commits is required on something Technical.   **_0.9/1_**
+#### Unit 4 and Journal is 5 points
 
 ## Prototype Check plus Unit 3
 Table for this week's tickets
