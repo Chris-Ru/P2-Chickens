@@ -6,7 +6,7 @@ project idea: We are going to provide a website of service that will rate news s
 
 ## Prototype Sprint End plus Unit 4
 
-####10 Points (Scrum Master / Self Grade)
+#### 10 Points (Scrum Master / Self Grade)
 
 - Team and Scrum Master Planning by Wednesday 1 point
 - Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project.
