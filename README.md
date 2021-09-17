@@ -11,7 +11,7 @@ project idea: We are going to provide a website of service that will rate news s
 #### Team and Scrum Master Planning by Wednesday 1 point
 - [**_0.9/1_**](https://github.com/Chris-Ru/P2-Chickens/issues/24#issuecomment-920214086)
 #### Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project.   
-- **_*/2_**
+- [**_2/2_**](https://github.com/Chris-Ru/P2-Chickens/projects/1#card-68682305)
 #### Individual Technicals 2 point.  Code commits is required on something Technical.   
 - **_*/2_**
 #### Unit 4 and Journal is 5 points
