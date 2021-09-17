@@ -15,10 +15,10 @@ project idea: We are going to provide a website of service that will rate news s
 - [**_2/2_**](https://github.com/Chris-Ru/P2-Chickens/projects/1#card-68682305)
 
 #### Individual Technicals 2 point.  Code commits is required on something Technical.   **_*/2_**
-- Chris Individual Techinical[here](https://github.com/Chris-Ru/P2-Chickens/commit/04f1be26e02a1415fb193d34dc57d47072f72c72)
-- Shekar Individual Techinical[here](*)
-- Sam Individual Techinical[here](*)
-- Dylan Individual Techinical[here](https://github.com/Chris-Ru/P2-Chickens/commit/270033c6b48c40440596a4d89c6ee5281f0b792a)
+- Chris Individual Techinical [here](https://github.com/Chris-Ru/P2-Chickens/commit/04f1be26e02a1415fb193d34dc57d47072f72c72)
+- Shekar Individual Techinical [here](*)
+- Sam Individual Techinical [here](*)
+- Dylan Individual Techinical [here](https://github.com/Chris-Ru/P2-Chickens/commit/270033c6b48c40440596a4d89c6ee5281f0b792a)
 
 #### Unit 4 and Journal is 5 points
 - Chris unit 4 notes + correctons [here](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=kix.5cfot1nwfhoc)
