@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.Minilab.Minilab2;
+package com.example.sping_portfolio.Minilab.Minilab3;
 
 class De_Morgan {
     public static void main(String[] args) {
