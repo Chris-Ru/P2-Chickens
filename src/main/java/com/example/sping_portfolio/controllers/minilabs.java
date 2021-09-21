@@ -22,4 +22,10 @@ public class minilabs {
         model.addAttribute("bits", bits); // MODEL is passed to html
         return "Minilab/minilab2"; // returns HTML VIEW ()
     }
+
+    @GetMapping("/fib")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+    public String Fib(@RequestParam(name="count", required=false, defaultValue="8") int count, Model model) {
+        model.addAttribute("count", count); // MODEL is passed to html
+        return "Minilab/minilab3"; // returns HTML VIEW ()
+    }
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+
+<!-- <head> -->
+<div layout:fragment="metadata" th:with="bits=${bits}" th:remove="tag">
+    <title>Fibonacci page</title>
+</div>
+<!-- </head> -->
+
+<body style="background-color: #6084a3;">
+<div layout:fragment="content" th:with="bits=${bits}" th:remove="tag">
+    <form action="" method="GET">
+        <label for="count">Amt of #:</label>
+        <input type="text" id="count" name="count"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
