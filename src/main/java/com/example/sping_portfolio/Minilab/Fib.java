@@ -25,7 +25,7 @@ public class Fib {
             System.out.println("No, it is NOT a Palindrome");
     }
 
-    private static boolean checkPalindrome(String str) {
+    public static boolean checkPalindrome(String str) {
         int strLen = str.length();
 
         //The logic is compare 1st char with last char (nth char)
