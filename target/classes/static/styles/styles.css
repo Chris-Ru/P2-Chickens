@@ -31,10 +31,6 @@ a:hover{
     font-size:100px;
     position: relative;
     top:50px;
-<<<<<<< HEAD
-=======
-    text-shadow: 2px 2px 5px #202020;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
   }
   
 .about-body {
@@ -48,10 +44,6 @@ a:hover{
   top:75px;
   width:900px;
   word-break:normal;
-<<<<<<< HEAD
-=======
-  text-shadow: 2px 2px 5px #202020;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
 }
   
 .row {
@@ -72,10 +64,6 @@ a:hover{
   border-radius: 50px;
   margin-top: 100px;
   backdrop-filter: blur(7px);
-<<<<<<< HEAD
-=======
-  -webkit-backdrop-filter: blur(7px);
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
 }
   
 .face {
@@ -140,11 +128,7 @@ a:hover{
   position:relative;
   text-align: center;
   line-height: normal;
-<<<<<<< HEAD
   top: 170px;
-=======
-  top: 25%;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
 }
   
 .welcome-text {
@@ -156,19 +140,11 @@ a:hover{
   font-size: 70px;
 }
 
-<<<<<<< HEAD
 .arrow {
   text-align: center;
   margin: 8% 0;
   color: white;
   text-decoration: none;
-=======
-.b1-arrow {
-  margin: 8% 0;
-  color: white;
-  text-decoration: none;
-  margin-left: 46.29px;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
 }
 
 .bounce {
@@ -191,19 +167,10 @@ a:hover{
 
 .block1 {
   color:white;
-<<<<<<< HEAD
   /* background-color: #404040; */
   background-image: url("../images/indexbg-blur.jpg");
   background-repeat: no-repeat;
   background-position: 0px -100px;
-=======
-  text-shadow: 2px 2px 5px #202020;
-  /* background-color: #404040; */
-  background-image: url("../images/indexbg-blur.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -211,83 +178,12 @@ a:hover{
 }
 
 .block2 {
-<<<<<<< HEAD
   background-color: rgb(184, 184, 184);
   height: 100vh;
   position: relative;
   top: -70px;
-=======
-  height: 100vh;
-  position: relative;
-  top: -70px;
-  color:white;
-  background-image: url(../images/chickenbg.jpeg);
-  /* background: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
 }
 
 .b2-content {
   padding-top: 100px;
-<<<<<<< HEAD
-=======
-}
-
-.separator {
-  background-color: rgb(48, 48, 48);
-  width: 100%;
-  height: 10px;
-  position: relative;
-  top: -70px;
-}
-
-.b2-box {
-  position: relative;
-  /* background: rgba(0,0,0,.5); */
-  background: linear-gradient(to right, rgba(48, 48, 48, 0.8) 50%, rgba(31, 31, 31, 0.8) 50%);
-  height:62vh;
-  width:70%;
-  border-radius: 40px;
-  padding: 40px;
-  font-size: 25px;
-  backdrop-filter: blur(7px);
-  z-index: 1;
-}
-
-.b2-left {
-  float:left;
-  width: 45%;
-  text-align: left;
-}
-
-.b2-right {
-  float:right;
-  width: 45%;
-  text-align: left;
-}
-
-.b2-arrow {
-  margin-top: 60px;
-  color: white;
-  text-decoration: none;
-  margin-left: 46.29px;
-  text-align: center;
-  text-shadow: 2px 2px 5px #202020;
-}
-
-.block3 {
-  height: 100vh;
-  position: relative;
-  top: -70px;
-  color:white;
-  background-image: url(../images/chicken.jpg);
-  /* background-image: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
->>>>>>> parent of a013e6b... change port to 5000, and update some html files
 }
