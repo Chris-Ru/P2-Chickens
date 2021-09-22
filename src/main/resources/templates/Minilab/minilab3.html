@@ -1,31 +1,26 @@
-<!DOCTYPE HTML>
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout1}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>Chris Individual</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></div></head>
 
-<head><div layout:fragment="metadata" th:with="word=${word}" th:remove="tag">
-<!-- Start of head content specific to page -->
-    <title>TPT3</title>
-    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
-    <!-- End of head content specific to page -->
-</div></head>
+<body style="background-color: #6084a3;"><div layout:fragment="content" th:remove="tag">
 
-    <body style="background-color: #6084a3;"><div layout:fragment="content" th:with="word=${word}" th:remove="tag">
-    <div layout:fragment="content" th:with="word=${word}" th:remove="tag">
-            <h1 class="text-center" style="margin-top:15px">Fibonacci Palindrome</h1>
-            <div class="container">
-                <div class="row justify-content-md-center">
-                    <form method="get" action="">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Palindromes</label>
-                            <div class="form"></div>
-                            <input type="text" name="word" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter word" style="overflow:hidden;">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-
-                    </form>
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="" method="GET" id="fibForm">
+                <div style="color:white">
+                    <label for="fibField">Type a Palindrome?</label>
+                    <input name="word" id="fibField">
+                    <button onclick="">Palindrome!</button>
+                    <p th:text="${word} + ' is a palindrome'"></p>
                 </div>
-            </div>
+            </form>
         </div>
-    </div></body>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
 </html>
