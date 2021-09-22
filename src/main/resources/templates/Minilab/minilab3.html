@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+
+<head><div layout:fragment="metadata" th:with="word=${word}" th:remove="tag">
+<!-- Start of head content specific to page -->
+    <title>TPT3</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
+    <!-- End of head content specific to page -->
+</div></head>
+
+    <body style="background-color: #6084a3;"><div layout:fragment="content" th:with="word=${word}" th:remove="tag">
+    <div layout:fragment="content" th:with="word=${word}" th:remove="tag">
+            <h1 class="text-center" style="margin-top:15px">Fibonacci Palindrome</h1>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <form method="get" action="">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Palindromes</label>
+                            <div class="form"></div>
+                            <input type="text" name="word" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter word" style="overflow:hidden;">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div></body>
+</html>
