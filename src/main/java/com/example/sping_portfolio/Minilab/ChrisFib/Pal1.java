@@ -10,7 +10,7 @@ package com.example.sping_portfolio.Minilab.ChrisFib;
  */
 
 
-public class Fib {
+public class Pal1 {
     public static void main(String[] args) {
 //      String word = "civic";
 //		String word = "radar";
