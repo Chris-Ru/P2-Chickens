@@ -25,7 +25,6 @@ public class minilabs {
         return "Minilab/minilab2"; // returns HTML VIEW ()
     }
 
-
     @GetMapping("/gray")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Gray(@RequestParam(name = "grayscale", required = false, defaultValue = "") String grayscale, Model model) {

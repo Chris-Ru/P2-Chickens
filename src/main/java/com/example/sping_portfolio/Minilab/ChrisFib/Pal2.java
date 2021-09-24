@@ -32,11 +32,11 @@ public class Pal2 {
     // Driver code
     public static void main(String[] args)
     {
-        String str = "geeks";
+        String str = "civic";
 
         if (isPalindrome(str))
-            System.out.print("Yes");
+            System.out.print("It is a Palindrome");
         else
-            System.out.print("No");
+            System.out.print("It is NOT a Palindrome");
     }
 }
