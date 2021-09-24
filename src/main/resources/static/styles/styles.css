@@ -246,10 +246,69 @@ a:hover{
   position: relative;
   top: -70px;
   color:white;
-  background-image: url(../images/chicken.jpg);
-  /* background-image: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%); */
+  /* background-image: url(../images/joebg_blur.jpg); */
+  background-image: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.b3-checker {
+  color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.input-label {
+  font-size: 40px;
+}
+
+.input-box {
+  width: 350px;
+  height: 50px;
+  border: white;
+  border-radius: 15px 0 0 15px;
+  padding: 10px;
+}
+
+.input-box:focus {
+  outline: none;
+  border: rgb(85, 85, 85);
+  border-width: 2px;
+  border-style: solid;
+  transition: .1s;
+}
+
+.submit {
+  width: 85px;
+  height: 50px;
+  border: white;
+  border-radius: 0 15px 15px 0;
+  padding: 10px;
+}
+
+.submit:hover {
+  background-color: rgb(180, 180, 180);
+  transition: .1s;
+}
+
+.submit:active {
+  background-color: rgb(150, 150, 150);
+  width: 85px;
+  transform: scale(1.2);
+  box-shadow: 1px 1px 5px rgb(56, 56, 56);
+  border-radius: 2px 15px 15px 2px;
+}
+
+.gray-images {
+  display: flex;
+  justify-content: center;
+}
+
+.solo-img {
+  padding: 40px;
+  border-radius: 60px;
 }
