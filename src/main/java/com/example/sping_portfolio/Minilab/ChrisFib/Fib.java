@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.Minilab;
+package com.example.sping_portfolio.Minilab.ChrisFib;
 
 /*
  * Palindrome Check
