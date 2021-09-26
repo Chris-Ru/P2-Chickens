@@ -26,6 +26,6 @@ public class gridtest {
         model.addAttribute("source3total", source3.getReview_total());
 
         //render template
-        return "gridtest";
+        return "project/gridtest";
     }
 }
