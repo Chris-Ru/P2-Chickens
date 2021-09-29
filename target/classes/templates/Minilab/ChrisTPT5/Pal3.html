@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>Chris Individual</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></div></head>
+
+<body style="background-color: #6084a3;"><div layout:fragment="content" th:remove="tag">
+
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="" method="GET" id="fibForm">
+                <div style="color:white">
+                    <label for="fibField">Type a Palindrome?</label>
+                    <input name="word" id="fibField">
+                    <button>Palindrome!</button>
+                    <p th:text="${message}"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+</html>
