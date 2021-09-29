@@ -50,7 +50,7 @@ public class Pal1 {
         System.out.println("The Given String \"" + word + "\"");
         myPal.checkPalindrome(getWord());
         myPal.getWord();
-        //System.out.print(checkPalindrome());
+        System.out.print(checkPalindrome(word));
     }
 }
 /*

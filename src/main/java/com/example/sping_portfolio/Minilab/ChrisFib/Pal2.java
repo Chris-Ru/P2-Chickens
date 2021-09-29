@@ -50,10 +50,11 @@ public class Pal2 {
     // Driver code
     public static void main(String[] args)
     {
-        Pal2 myPal = new Pal2("str");
+        Pal2 myPal = new Pal2("civic");
         System.out.println("The Given String \"" + str + "\"");
         myPal.isPalindrome(getStr());
         myPal.getStr();
+        System.out.print(isPalindrome(str));
 
         //if (isPalindrome(str))
             //System.out.print("It is a Palindrome");
