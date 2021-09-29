@@ -9,7 +9,6 @@ package com.example.sping_portfolio.Minilab.ChrisFib;
  * radar, civic, level, racecar
  */
 
-
 public class Pal1 {
     // initialize instance variable
     private static String word;
@@ -20,10 +19,10 @@ public class Pal1 {
         this.word = word;
     }
 
-    //Getter
+    // Getter
     public static String getWord(){return word;}
 
-    //Method
+    // Method
     public static boolean checkPalindrome(String word) {
         int strLen = word.length();
         //The logic is compare 1st char with last char (nth char)

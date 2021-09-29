@@ -1,10 +1,28 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
-// Java implementation of the approach
-public class Pal2 {
+/*
+ * Palindrome Check
+ * -----------------
+ * A String is a palindrome, if it is unchanged even when it is reversed.
+ *
+ * example words are :
+ * radar, civic, level, racecar
+ */
 
-    // Function that returns true if
-    // str is a palindrome
+public class Pal2 {
+    // initialize instance variable
+    private static String str;
+
+    // Constructor
+    public Pal2(String str)
+    {
+        this.str = str;
+    }
+
+    // Getter
+    public static String getStr(){return str;}
+
+    // Method
     static boolean isPalindrome(String str)
     {
 
@@ -32,11 +50,14 @@ public class Pal2 {
     // Driver code
     public static void main(String[] args)
     {
-        String str = "civic";
+        Pal2 myPal = new Pal2("str");
+        System.out.println("The Given String \"" + str + "\"");
+        myPal.isPalindrome(getStr());
+        myPal.getStr();
 
-        if (isPalindrome(str))
-            System.out.print("It is a Palindrome");
-        else
-            System.out.print("It is NOT a Palindrome");
+        //if (isPalindrome(str))
+            //System.out.print("It is a Palindrome");
+        //else
+            //System.out.print("It is NOT a Palindrome");
     }
 }
