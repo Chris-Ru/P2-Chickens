@@ -70,7 +70,7 @@ public class TPT5 {
     }
 
     @GetMapping("/palindrome4")
-    //  algorithm
+    // String Reverse algorithm
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Pal4(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
         if (Pal2.isPalindrome(word)) {
