@@ -43,7 +43,7 @@ public class Pal3
     }
 
     // Method 2
-    static boolean isPalindrome(String word)
+    static boolean checkPalindrome(String word)
     {
         int n = word.length();
 
@@ -60,9 +60,9 @@ public class Pal3
     {
         Pal3 myPal = new Pal3("civic");
         System.out.println("The Given String \"" + word + "\"");
-        myPal.isPalindrome(word);
+        myPal.checkPalindrome(word);
         myPal.getWord();
-        System.out.print(isPalindrome(word));
+        System.out.print(checkPalindrome(word));
 
         //if (isPalindrome(str))
         //    System.out.println(str+ " is a palindrome");

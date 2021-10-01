@@ -23,7 +23,7 @@ public class Pal2 {
     public static String getWord(){return word;}
 
     // Method
-    static boolean isPalindrome(String word)
+    static boolean checkPalindrome(String word)
     {
 
         // Pointers pointing to the beginning
@@ -52,9 +52,9 @@ public class Pal2 {
     {
         Pal2 myPal = new Pal2("civic");
         System.out.println("The Given String \"" + word + "\"");
-        myPal.isPalindrome(getWord());
+        myPal.checkPalindrome(getWord());
         myPal.getWord();
-        System.out.print(isPalindrome(word));
+        System.out.print(checkPalindrome(word));
 
         //if (isPalindrome(str))
             //System.out.print("It is a Palindrome");

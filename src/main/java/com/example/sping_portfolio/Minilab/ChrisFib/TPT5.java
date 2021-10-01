@@ -38,7 +38,7 @@ public class TPT5 {
     //  While algorithm
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Pal2(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
-        if (Pal2.isPalindrome(word)) {
+        if (Pal2.checkPalindrome(word)) {
             System.out.println(word + " es un palíndromo");
             // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
@@ -55,7 +55,7 @@ public class TPT5 {
     // Recursive algorithm
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Pal3(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
-        if (Pal3.isPalindrome(word)) {
+        if (Pal3.checkPalindrome(word)) {
             System.out.println(word + " palindrom");
             // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html

@@ -1,8 +1,8 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
-import lombok.Getter;
+import com.example.sping_portfolio.Minilab.ChrisFib._Pal;
 
-public class Pal4{
+public class Pal4 extends Pig {
 
     // initialize instance variable
     private static String word;
