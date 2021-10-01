@@ -1,23 +1,50 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
+import lombok.Getter;
+
 public class Pal4{
-    public static void checkPalindrome(String s)
+
+    // initialize instance variable
+    private static String word;
+
+    // Constructor
+    public Pal4(String word)
     {
-        // reverse the given String
-        String reverse = new StringBuffer(s).reverse().toString();
+        this.word = word;
+    }
 
-        // check whether the string is palindrome or not
-        if (s.equals(reverse))
-            System.out.println("Yes");
+    // Getter
+    public static String getWord(){return word;}
 
-        else
-            System.out.println("No");
+    // Method
+    public static boolean checkPalindrome(String word){
+        // creates empty builder, capacity 16
+        StringBuilder /* can name to anything -> */ sb=new /* <- */ StringBuilder(word);
+        // reverse it
+        sb.reverse();
+        // return string representation of the word
+        String rev=sb.toString();
+
+        // if the word is a palindrome then return true, otherwise don't
+        if(word.equals(rev)){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     public static void main (String[] args)
-            throws java.lang.Exception
     {
-        checkPalindrome("malayalam");
-        checkPalindrome("GeeksforGeeks");
+        Pal4 myPal = new Pal4("civic");
+        System.out.println("The Given String \"" + word + "\"");
+        myPal.checkPalindrome(getWord());
+        myPal.getWord();
+        System.out.print(checkPalindrome(word));
     }
+            //throws java.lang.Exception
+    //{
+        //checkPalindrome("malayalam");
+        //checkPalindrome("GeeksforGeeks");
+    //}
 }
