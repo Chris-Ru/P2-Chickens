@@ -77,7 +77,7 @@ public class TPT5 {
             // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
         } else {
-            System.out.println(word + " \n" + "non è palindromo");
+            System.out.println(word + " non è palindromo");
             // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
