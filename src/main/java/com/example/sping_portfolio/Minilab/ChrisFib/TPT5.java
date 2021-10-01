@@ -12,7 +12,6 @@ public class TPT5 {
     //  For algorithm
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Pal1(@RequestParam(name = "word", required = false, defaultValue = "") String message, Model model) {
-        Pal1 myPal = new Pal1("word");
         if (Pal1.checkPalindrome(message)){
             System.out.println(message + " is a palindrome");
             model.addAttribute("message", message + " is a palindrome");
@@ -24,15 +23,15 @@ public class TPT5 {
 
         //if (Pal1.checkPalindrome()) {
         //System.out.println(word + " palindrome");
-        // uses ${message} from inputted date on Pal1.html and prints the word with " is a palindrome"
+        // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
         //model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
         //} //else {
         //System.out.println(word + " not a palindrome");
-        // uses ${message} from inputted data on Pal1.html and prints the word with " is not a palindrome"
+        // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
         //model.addAttribute("message", word + " is not a palindrome");
         //}
 
-        return "Minilab/ChrisTPT5/Pal1"; // returns HTML VIEW ()
+        return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
     @GetMapping("/palindrome2")
@@ -41,15 +40,15 @@ public class TPT5 {
     public String Pal2(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
         if (Pal2.isPalindrome(word)) {
             System.out.println(word + " es un palíndromo");
-            // uses ${message} from inputted date on Pal1.html and prints the word with " is a palindrome"
+            // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
         } else {
             System.out.println(word + " no es un palíndromo");
-            // uses ${message} from inputted data on Pal1.html and prints the word with " is not a palindrome"
+            // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
 
-        return "Minilab/ChrisTPT5/Pal1"; // returns HTML VIEW ()
+        return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
     @GetMapping("/palindrome3")
@@ -58,15 +57,15 @@ public class TPT5 {
     public String Pal3(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
         if (Pal3.isPalindrome(word)) {
             System.out.println(word + " palindrom");
-            // uses ${message} from inputted date on Pal1.html and prints the word with " is a palindrome"
+            // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
         } else {
             System.out.println(word + " nem palindrom");
-            // uses ${message} from inputted data on Pal1.html and prints the word with " is not a palindrome"
+            // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
 
-        return "Minilab/ChrisTPT5/Pal1"; // returns HTML VIEW ()
+        return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
     @GetMapping("/palindrome4")
@@ -75,14 +74,14 @@ public class TPT5 {
     public String Pal4(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
         if (Pal4.checkPalindrome(word)) {
             System.out.println(word + " è un palindromo");
-            // uses ${message} from inputted date on Pal1.html and prints the word with " is a palindrome"
+            // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
         } else {
             System.out.println(word + " \n" + "non è palindromo");
-            // uses ${message} from inputted data on Pal1.html and prints the word with " is not a palindrome"
+            // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
 
-        return "Minilab/ChrisTPT5/Pal1"; // returns HTML VIEW ()
+        return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 }

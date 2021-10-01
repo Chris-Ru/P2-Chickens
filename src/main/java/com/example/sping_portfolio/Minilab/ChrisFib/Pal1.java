@@ -7,7 +7,7 @@ package com.example.sping_portfolio.Minilab.ChrisFib;
  *
  * example words are :
  * radar, civic, level, racecar
- */
+*/
 
 public class Pal1 {
     // initialize instance variable
@@ -46,13 +46,14 @@ public class Pal1 {
         //System.out.println("No, it is NOT a Palindrome");
 
 
-        Pal1 myPal = new Pal1("word");
+        Pal1 myPal = new Pal1("civic");
         System.out.println("The Given String \"" + word + "\"");
         myPal.checkPalindrome(getWord());
         myPal.getWord();
         System.out.print(checkPalindrome(word));
     }
 }
+
 /*
    OUTPUT
 

@@ -11,30 +11,30 @@ package com.example.sping_portfolio.Minilab.ChrisFib;
 
 public class Pal2 {
     // initialize instance variable
-    private static String str;
+    private static String word;
 
     // Constructor
-    public Pal2(String str)
+    public Pal2(String word)
     {
-        this.str = str;
+        this.word = word;
     }
 
     // Getter
-    public static String getStr(){return str;}
+    public static String getWord(){return word;}
 
     // Method
-    static boolean isPalindrome(String str)
+    static boolean isPalindrome(String word)
     {
 
         // Pointers pointing to the beginning
         // and the end of the string
-        int i = 0, j = str.length() - 1;
+        int i = 0, j = word.length() - 1;
 
         // While there are characters to compare
         while (i < j) {
 
             // If there is a mismatch
-            if (str.charAt(i) != str.charAt(j))
+            if (word.charAt(i) != word.charAt(j))
                 return false;
 
             // Increment first pointer and
@@ -51,10 +51,10 @@ public class Pal2 {
     public static void main(String[] args)
     {
         Pal2 myPal = new Pal2("civic");
-        System.out.println("The Given String \"" + str + "\"");
-        myPal.isPalindrome(getStr());
-        myPal.getStr();
-        System.out.print(isPalindrome(str));
+        System.out.println("The Given String \"" + word + "\"");
+        myPal.isPalindrome(getWord());
+        myPal.getWord();
+        System.out.print(isPalindrome(word));
 
         //if (isPalindrome(str))
             //System.out.print("It is a Palindrome");
