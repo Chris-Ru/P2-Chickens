@@ -13,10 +13,11 @@
         <div class="row justify-content-left" style="margin: 2%;">
             <form action="" method="GET" id="fibForm">
                 <div style="color:white">
-                    <label for="fibField">Type a Palindrome?</label>
+                    <h1 th:text="${value}"></h1>
+                    <h4 for="fibField">Type a Word</h4>
                     <input name="word" id="fibField">
                     <button>Palindrome!</button>
-                    <p th:text="${message}"></p>
+                    <p th:text="${message}" style="font-size: large"></p>
                 </div>
             </form>
         </div>
