@@ -1,6 +1,5 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
-import com.example.sping_portfolio.Minilab.ChrisFib.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
@@ -19,7 +18,6 @@ public class CSAlgoController {
         theList.add(new PalRecurse(word));
         theList.add(new PalWhile(word));
         theList.add(new Pal_String_Reverse(word));
-        System.out.println(theList);
         return theList;
     }
 
@@ -30,6 +28,6 @@ public class CSAlgoController {
         //MODEL attributes are passed back html
         model.addAttribute("palindromes", checkInit(word));
         model.addAttribute("word", word);
-        return "Minilab/check"; //HTML render Palindrome results
+        return "Minilab/AbstractPal"; //HTML render Palindrome results
     }
 }

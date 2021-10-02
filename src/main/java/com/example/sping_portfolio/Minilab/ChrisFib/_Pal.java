@@ -5,7 +5,6 @@ import com.example.sping_portfolio.controllers.ConsoleUI.ConsoleMethods;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 import lombok.Getter;
 
@@ -49,8 +48,6 @@ public abstract class _Pal {
     public void setData(String results) {
         list.add(results);
         TOrF = results;
-        // hash.put(this.hashID++, list.clone());
-
     }
 
     /*
@@ -60,19 +57,14 @@ public abstract class _Pal {
         return timeElapsed.getNano();
     }
 
-    /*
-     Custom Getter to return last element in Fibonacci sequence
-     */
-
-//
-//    public long getNth() {
-//        return list.get(size - 1);
-//    }
+    public void print() {
+        ConsoleMethods.println("Init Time = " + this.getTimeElapsed());
+    }
 
     public static void main(String[] args) {
         PalFor.main(null);
         PalRecurse.main(null);
-        Pal_String_Reverse.main(null);
         PalWhile.main(null);
+        Pal_String_Reverse.main(null);
     }
 }

@@ -1,5 +1,7 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
+import java.time.Instant;
+
 public class PalFor extends _Pal {
     public PalFor(String word) {
         super(word);

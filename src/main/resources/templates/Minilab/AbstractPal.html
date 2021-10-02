@@ -39,11 +39,12 @@
                     <tr>
                         <th scope="col">Method</th>
                         <th scope="col">Palindrome?</th>
+                        <th scope="col">Time</th>
                     </tr>
                     <tr th:each="palindrome : ${palindromes}">
                         <td th:text="${palindrome.getName()}"></td>
                         <td th:text="${palindrome.getTOrF()}"></td>
-                        <!--                       <td th:text="${fib.getTimeElapsed()}"></td> -->
+                        <td th:text="${palindrome.getTimeElapsed()}"></td>
                     </tr>
                 </table>
             </div>
