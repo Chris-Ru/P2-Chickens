@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
-import com.example.sping_portfolio.controllers.consoleUI.ConsoleMethods;
+import com.example.sping_portfolio.controllers.ConsoleUI.ConsoleMethods;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -20,15 +20,21 @@ public abstract class _Pal {
     private String yesOrNo;
     String name;
     Duration timeElapsed;
-
+    ArrayList<String> list;
 
     public _Pal(String word) {
         this.word = word;
+        this.list = new ArrayList<>();
         //initialize  time algorithm
         Instant start = Instant.now();  // time capture -- start
         this.init();
         Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
+
+    }
+
+    public _Pal() {
+        this("level");
     }
 
     /*
@@ -41,7 +47,7 @@ public abstract class _Pal {
      Number is added to Fibonacci sequence, current state of "list" is added to hash for hashID "num"
      */
     public void setData(String results) {
-        yesOrNo = results;
+        list.add(results);
         // hash.put(this.hashID++, list.clone());
 
     }
@@ -62,14 +68,10 @@ public abstract class _Pal {
 //        return list.get(size - 1);
 //    }
 
-
-    /*
-    Tester class method.  This calls "main" class of each of the extended classes in the package
-     */
     public static void main(String[] args) {
         PalFor.main(null);
         PalRecurse.main(null);
-//        PalStream.main(null);
-//        PalWhile.main(null);
+        Pal_String_Reverse.main(null);
+        PalWhile.main(null);
     }
 }

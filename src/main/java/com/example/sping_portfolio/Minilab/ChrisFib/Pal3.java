@@ -20,39 +20,23 @@ public class Pal3
     // Getter
     public static String getWord(){return word;}
 
-    // Method 1
-    static boolean isPalRec(String word, int s, int e)
-    {
-        // If there is only one character
-        if (s == e)
-            return true;
+    // Method
+    public static String checkPalindrome(String word) {   // if length is 0 or 1 then String is palindrome
+        if (word.length() == 0 || word.length() == 1)
+            return "True";
+        if (word.charAt(0) == word.charAt(word.length() - 1))
+            /* check for first and last char of String:
+             * if they are same then do the same thing for a substring
+             * with first and last char removed. and carry on this
+             * until you string completes or condition fails
+             * Function calling itself: Recursion
+             */
+            return checkPalindrome(word.substring(1, word.length() - 1));
 
-        // If first and last
-        // characters do not match
-        if ((word.charAt(s)) != (word.charAt(e)))
-            return false;
-
-        // If there are more than
-        // two characters, check if
-        // middle substring is also
-        // palindrome or not.
-        if (s < e + 1)
-            return isPalRec(word, s + 1, e - 1);
-
-        return true;
-    }
-
-    // Method 2
-    static boolean checkPalindrome(String word)
-    {
-        int n = word.length();
-
-        // checking for if word is one string, one string = Palindrome
-        if (n == 0)
-            return true;
-
-        // checks to see if word is one character or the word is same forward and back from isPalRec
-        return isPalRec(word, 0, n - 1);
+        /* If program control reaches to this statement it means
+         * the String is not palindrome hence return false.
+         */
+        return "False";
     }
 
     // Driver Code

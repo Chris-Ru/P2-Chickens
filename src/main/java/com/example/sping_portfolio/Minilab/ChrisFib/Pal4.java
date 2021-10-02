@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
-public class Pal4 extends Pig {
+public class Pal4 {
 
     // initialize instance variable
     private static String word;
