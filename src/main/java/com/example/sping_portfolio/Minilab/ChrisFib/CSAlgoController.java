@@ -23,7 +23,7 @@ public class CSAlgoController {
 
     // GET request, parameters are passed within the URI
     @GetMapping("/palindrome")
-    public String Pal(@RequestParam(name="word", required=false, defaultValue="Chris") String word, Model model) {
+    public String Pal(@RequestParam(name="word", required=false, defaultValue="") String word, Model model) {
 
         //MODEL attributes are passed back html
         model.addAttribute("palindromes", checkInit(word));
