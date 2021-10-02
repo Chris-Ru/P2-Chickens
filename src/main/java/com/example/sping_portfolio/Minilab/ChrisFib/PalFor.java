@@ -18,6 +18,6 @@ public class PalFor extends _Pal {
         for (int i = 0; i < word.length() / 2; i++)
             if (word.charAt(i) != word.charAt(strLen - i - 1))
                 super.setData("False");
-        super.setData("True");
+            else super.setData("True");
     }
 }

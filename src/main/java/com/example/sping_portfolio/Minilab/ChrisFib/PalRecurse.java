@@ -1,8 +1,5 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
-import static com.example.sping_portfolio.Minilab.ChrisFib.Pal3.checkPalindrome;
-import com.example.sping_portfolio.Minilab.ChrisFib._Pal;
-
 public class PalRecurse extends _Pal {
     public PalRecurse() {super();}
     public PalRecurse(String word) {
@@ -12,21 +9,17 @@ public class PalRecurse extends _Pal {
 @Override
 protected void init() {
     super.name = "Recursive Loop";
-    if (word.length() == 0 || word.length() == 1)
-        super.setData("True");
-    if (word.charAt(0) == word.charAt(word.length() - 1)) {
-        /* check for first and last char of String:
-         * if they are same then do the same thing for a substring
-         * with first and last char removed. and carry on this
-         * until you string completes or condition fails
-         * Function calling itself: Recursion
-         */
+    word = word.replaceAll("[^a-zA-Z0-9 ]", "").toLowerCase().replaceAll("\\p{Z}", "");
+    int getLength = word.length();
+    int i = 0;
+    while (i < (getLength - 1)) {
+        String checkChar = String.valueOf(word.charAt(i));
+        String lastChar = String.valueOf(word.charAt(getLength - i - 1));
 
-        super.setData(checkPalindrome(word.substring(1, word.length() - 1)));
+        if (!checkChar.equals(lastChar)) super.setData("False");
+        if (checkChar.equals(lastChar)) super.setData("True");
+
+        i++;
     }
-    /* If program control reaches to this statement it means
-     * the String is not palindrome hence return false.
-     */
-    super.setData("False");
     }
 }

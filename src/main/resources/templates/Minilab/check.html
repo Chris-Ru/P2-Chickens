@@ -11,7 +11,7 @@
     </div>
 </head>
 
-<body>
+<body style="background-color: #6084a3">
 <div layout:fragment="content" th:remove="tag">
     `<div class="container">
 
@@ -22,28 +22,27 @@
         </div>
 
         <!-- Form and Action -->
-        <div class="jumbotron text-center row" style = "background-image: linear-gradient(to right, rgba(255,0,255,1), rgba(255,0,255,0))">
+        <div class="jumbotron text-center row">
             <!-- Input -->
             <div class="col-md-6">
                 <h3>Type a word?</h3>
-                <img class="img-responsive py-3" th:src="@{/images/fibonacci_spiral.svg}" alt="" width="50%" height="Auto">
-                <form id="fibForm" action="" method="GET" >
-                    <input name="word" id="word" type="text"  >
+                <form id="fibForm" action="" method="GET">
+                    <input name="word" id="word" type="text">
                     <button>Go!</button>
                 </form>
             </div>
             <!-- Output/Result -->
             <div class="col-md-6">
-                <h3>Outputs</h3>
-                <p th:text="${word}"></p>
+                <h1>Outputs</h1>
+                <h6 th:text="${word}"></h6>
                 <table class="mx-auto">
                     <tr>
                         <th scope="col">Method</th>
                         <th scope="col">Palindrome?</th>
                     </tr>
-                    <tr th:each="check : ${checkList}">
-                        <td th:text="${check.getName()}"></td>
-                        <td th:text="${check.getList()}"></td>
+                    <tr th:each="palindrome : ${palindromes}">
+                        <td th:text="${palindrome.getName()}"></td>
+                        <td th:text="${palindrome.getTOrF()}"></td>
                         <!--                       <td th:text="${fib.getTimeElapsed()}"></td> -->
                     </tr>
                 </table>

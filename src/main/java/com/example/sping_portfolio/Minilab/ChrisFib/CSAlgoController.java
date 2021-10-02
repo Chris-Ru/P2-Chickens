@@ -14,7 +14,6 @@ import java.util.List;
 public class CSAlgoController {
 
     public List<_Pal> checkInit(String word) {
-        //Fibonacci objects created with different initializers
         List<_Pal> theList = new ArrayList<>();
         theList.add(new PalFor(word));
         theList.add(new PalRecurse(word));
@@ -25,17 +24,12 @@ public class CSAlgoController {
     }
 
     // GET request, parameters are passed within the URI
-    @GetMapping("/check")
-    public String fib(@RequestParam(name="word", required=false, defaultValue="") String word, Model model) {
+    @GetMapping("/palindrome")
+    public String fib(@RequestParam(name="word", required=false, defaultValue="Chris") String word, Model model) {
 
         //MODEL attributes are passed back html
-        model.addAttribute("checkList", checkInit(word));
+        model.addAttribute("palindromes", checkInit(word));
         model.addAttribute("word", word);
         return "Minilab/check"; //HTML render Palindrome results
-    }
-
-    // Console UI is run out of the same Controller
-    public static void main(String[] args) {
-
     }
 }

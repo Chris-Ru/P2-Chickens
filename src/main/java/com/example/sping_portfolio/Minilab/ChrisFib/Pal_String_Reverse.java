@@ -18,7 +18,8 @@ public class Pal_String_Reverse extends _Pal {
         // if the word is a palindrome then return true, otherwise don't
         if (word.equals(rev)) {
             super.setData("True");
-        } else {
+        }
+        else {
             super.setData("False");
         }
     }

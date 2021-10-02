@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.Minilab.ChrisFib;
+package com.example.sping_portfolio.Minilab.ChrisFib.nonabstract;
 
 /*
  * Palindrome Check
@@ -23,7 +23,7 @@ public class Pal2 {
     public static String getWord(){return word;}
 
     // Method
-    static boolean checkPalindrome(String word)
+    public static boolean checkPalindrome(String word)
     {
 
         // Pointers pointing to the beginning

@@ -1,5 +1,9 @@
 package com.example.sping_portfolio.Minilab.ChrisFib;
 
+import com.example.sping_portfolio.Minilab.ChrisFib.nonabstract.Pal1;
+import com.example.sping_portfolio.Minilab.ChrisFib.nonabstract.Pal2;
+import com.example.sping_portfolio.Minilab.ChrisFib.nonabstract.Pal3;
+import com.example.sping_portfolio.Minilab.ChrisFib.nonabstract.Pal4;
 import org.springframework.ui.Model;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -51,22 +55,22 @@ public class TPT5 {
         return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
-//    @GetMapping("/palindrome3")
+    @GetMapping("/palindrome3")
     // Recursive algorithm
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-//    public String Pal3(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
-//        if (Pal3.checkPalindrome(word)) {
-//            System.out.println(word + " palindrom");
+    public String Pal3(@RequestParam(name = "word", required = false, defaultValue = "") String word, Model model) {
+        if (Pal3.checkPalindrome(word)) {
+            System.out.println(word + " palindrom");
             // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
-//            model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
-//        } else {
-//            System.out.println(word + " nem palindrom");
+            model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
+        } else {
+            System.out.println(word + " nem palindrom");
             // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
-//            model.addAttribute("message", word + " is not a palindrome");
-//        }
+            model.addAttribute("message", word + " is not a palindrome");
+        }
 
-//        return "Minilab/Palindrome"; // returns HTML VIEW ()
-//    }
+        return "Minilab/Palindrome"; // returns HTML VIEW ()
+    }
 
     @GetMapping("/palindrome4")
     // String Reverse algorithm

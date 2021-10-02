@@ -17,7 +17,7 @@ import lombok.Getter;
 @Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _Pal {
     String word;
-    private String yesOrNo;
+    private String TOrF;
     String name;
     Duration timeElapsed;
     ArrayList<String> list;
@@ -48,6 +48,7 @@ public abstract class _Pal {
      */
     public void setData(String results) {
         list.add(results);
+        TOrF = results;
         // hash.put(this.hashID++, list.clone());
 
     }

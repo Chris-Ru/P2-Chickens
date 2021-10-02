@@ -18,14 +18,12 @@ public class PalWhile extends _Pal {
             // If there is a mismatch
             if (word.charAt(i) != word.charAt(j))
                 super.setData("False");
+            else super.setData("True");
 
             // Increment first pointer and
             // decrement the other
             i++;
             j--;
         }
-
-        // Given string is a palindrome
-        super.setData("True");
     }
 }
