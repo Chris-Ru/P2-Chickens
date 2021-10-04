@@ -1,21 +1,30 @@
-//location
 package com.example.sping_portfolio.Minilab.Minilab4.Dylan;
 
 //imports
 import java.util.ArrayList;
+import lombok.Getter;
+import java.time.Duration;
+import java.time.Instant;
 
-public class gcf {
+@Getter
+abstract class gcf {
+
     //variables
-    private int num1;
-    private int num2;
+    Duration timeElapsed;
 
-    //constructor
-    public gcf(int num1, int num2){
-        this.num1 = num1;
-        this.num2 = num2;
+    public gcf(){
+        //start timer
+        Instant start = Instant.now();
+        //run main function
+        this.findgcf();
+        //end timer
+        Instant end = Instant.now();
+
+        //get time
+        this.timeElapsed = Duration.between(start, end);
     }
 
-    //factoring function
+    //creates list of factors
     public ArrayList<Integer> factor(int num){
         //creates factor storing array
         ArrayList<Integer> factors = new ArrayList<Integer>(2);
@@ -28,8 +37,14 @@ public class gcf {
         return factors;
     }
 
-    public static void main(String[] args){
-        gcf test = new gcf(1, 2);
-        System.out.print(test.factor(20));
+    //requires findgcf method for all gcf classes
+    public abstract int findgcf();
+
+    //requires getmethod method for all gcf classes
+    public abstract String getmethod();
+
+    //return runtime
+    public int getTimeElapsed() {
+        return timeElapsed.getNano();
     }
 }
