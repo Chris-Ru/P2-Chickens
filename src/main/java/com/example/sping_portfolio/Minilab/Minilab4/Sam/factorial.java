@@ -1,6 +1,7 @@
-package com.example.sping_portfolio.Minilab.Sam;
+package com.example.sping_portfolio.Minilab.Minilab4.Sam;
 
-import com.example.sping_portfolio.Minilab.Sam.factorial;
+import com.example.sping_portfolio.Minilab.Minilab4.Sam.factorial;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
