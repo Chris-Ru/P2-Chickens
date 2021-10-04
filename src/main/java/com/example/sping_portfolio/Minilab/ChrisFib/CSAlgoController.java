@@ -27,7 +27,7 @@ public class CSAlgoController {
         //MODEL attributes are passed back html
         model.addAttribute("palindromes", checkInit(word));
         model.addAttribute("word", word);
-        System.out.println(word);
+        System.out.println("abstract word of choice: " + word);
         return "Minilab/AbstractPal"; //HTML render Palindrome results
     }
 }
