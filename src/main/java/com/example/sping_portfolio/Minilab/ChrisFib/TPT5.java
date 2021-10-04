@@ -35,6 +35,7 @@ public class TPT5 {
         //model.addAttribute("message", word + " is not a palindrome");
         //}
 
+        model.addAttribute("value", "Palindrome 1"); // MODEL is passed to html
         return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
@@ -46,12 +47,13 @@ public class TPT5 {
             System.out.println(word + " es un palíndromo");
             // uses ${message} from inputted date on Palindrome.html and prints the word with " is a palindrome"
             model.addAttribute("message", word + " is a palindrome"); // MODEL is passed to html
-        } else {
+        }
+        else {
             System.out.println(word + " no es un palíndromo");
             // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
-
+        model.addAttribute("value", "Palindrome 3"); // MODEL is passed to html
         return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
@@ -68,7 +70,7 @@ public class TPT5 {
             // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
-
+        model.addAttribute("value", "Palindrome 3"); // MODEL is passed to html
         return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 
@@ -85,7 +87,7 @@ public class TPT5 {
             // uses ${message} from inputted data on Palindrome.html and prints the word with " is not a palindrome"
             model.addAttribute("message", word + " is not a palindrome");
         }
-
+        model.addAttribute("value", "Palindrome 4"); // MODEL is passed to html
         return "Minilab/Palindrome"; // returns HTML VIEW ()
     }
 }

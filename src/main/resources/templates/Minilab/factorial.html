@@ -3,7 +3,7 @@
       layout:decorate="~{layout1}" lang="en">
 <head><div layout:fragment="metadata" th:remove="tag">
     <meta charset="UTF-8">
-    <title>Chris Individual</title>
+    <title>Least Common Multiple</title>
     <link th:href="@{/styles/styles.css}" rel="stylesheet" /></div></head>
 
 <body style="background-color: #6084a3;"><div layout:fragment="content" th:remove="tag">
@@ -11,13 +11,11 @@
     <!-- Start of body content specific to page -->
     <div class="contact" style="height: 35vh;">
         <div class="row justify-content-left" style="margin: 2%;">
-            <form action="" method="GET" id="fibForm">
+            <form method="GET">
                 <div style="color:white">
-                    <h1 th:text="${value}"></h1>
-                    <h4 for="fibField">Type a Word</h4>
-                    <input name="word" id="fibField">
-                    <button>Palindrome!</button>
-                    <p th:text="${message}" style="font-size: large"></p>
+                    <input type="number" name="number" id="number">
+                    <button>Submit</button>
+                    <p th:text="${fact}" style="font-size: large"></p>
                 </div>
             </form>
         </div>
