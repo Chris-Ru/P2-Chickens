@@ -34,7 +34,7 @@ public class method_for extends gcf{
     }
 
     @Override
-    public String getmethod(){
+    public String getMethod(){
         return "For";
     }
 }

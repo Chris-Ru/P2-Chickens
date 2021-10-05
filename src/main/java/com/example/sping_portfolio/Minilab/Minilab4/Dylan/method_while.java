@@ -35,7 +35,7 @@ public class method_while extends gcf{
     }
 
     @Override
-    public String getmethod(){
+    public String getMethod(){
         return "While";
     }
 }

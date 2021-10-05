@@ -25,7 +25,7 @@
         <div class="jumbotron text-center row">
             <!-- Input -->
             <div class="col-md-6">
-                <h3>Type a word?</h3>
+                <h3>Type Two Numbers</h3>
                 <form id="gcfForm" action="" method="GET">
                     <input name="num1" id="num1" type="text">
                     <input name="num2" id="num2" type="text">
@@ -42,9 +42,9 @@
                         <th scope="col">Time</th>
                     </tr>
                     <tr th:each="gcf : ${gcfList}">
-                        <td th:text="${gcf.getmethod()}}"></td>
+                        <td th:text="${gcf.getMethod()}"></td>
                         <td th:text="${gcf.findgcf()}"></td>
-                        <td th:text="${gcf.getTimeElapsed()}"></td>
+                        <!-- <td th:text="${gcf.getTimeElapsed()}"></td> -->
                     </tr>
                 </table>
             </div>

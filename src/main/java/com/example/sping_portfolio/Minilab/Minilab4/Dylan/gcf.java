@@ -14,14 +14,14 @@ abstract class gcf {
 
     public gcf(){
         //start timer
-        Instant start = Instant.now();
+        //Instant start = Instant.now();
         //run main function
-        this.findgcf();
+        //this.findgcf();
         //end timer
-        Instant end = Instant.now();
+        //Instant end = Instant.now();
 
         //get time
-        this.timeElapsed = Duration.between(start, end);
+        //this.timeElapsed = Duration.between(start, end);
     }
 
     //creates list of factors
@@ -41,7 +41,7 @@ abstract class gcf {
     public abstract int findgcf();
 
     //requires getmethod method for all gcf classes
-    public abstract String getmethod();
+    public abstract String getMethod();
 
     //return runtime
     public int getTimeElapsed() {

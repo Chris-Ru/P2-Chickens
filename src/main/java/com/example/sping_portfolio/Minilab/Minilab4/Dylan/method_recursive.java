@@ -29,7 +29,7 @@ public class method_recursive extends gcf {
     }
 
     @Override
-    public String getmethod(){
+    public String getMethod(){
         return "Recursive";
     }
 
