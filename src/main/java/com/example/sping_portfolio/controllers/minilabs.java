@@ -42,4 +42,5 @@ public class minilabs {
         model.addAttribute("str", str);
         return "Minilab/minilab4"; // returns HTML VIEW ()
     }
+
 }
