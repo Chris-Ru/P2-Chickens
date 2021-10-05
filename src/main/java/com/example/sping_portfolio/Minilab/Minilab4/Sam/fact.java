@@ -23,9 +23,9 @@ public class fact {
     public static int getNumber(){return number;}
 
     // Method
-    public static boolean checkNumber(int number) {
-
-    }
+//    public static boolean checkNumber(int number) {
+//
+//    }
 
     //runs program
     public static void main(String[] args) {

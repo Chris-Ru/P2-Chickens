@@ -31,7 +31,28 @@ public class minilabs {
 
     @GetMapping("/gray")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String Gray(@RequestParam(name = "grayscale", required = false, defaultValue = "") String grayscale, Model model) {
+    public String Gray(Model model) {
+        String web_server = "http://localhost:5000/";
+        List<GrayScale> lii = new ArrayList<>();
+
+        String file0 = "/images/Mona_Lisa.png";
+        lii.add(new GrayScale(file0, web_server+file0, 12));
+        lii.get(0).read_image();
+
+        String file1 = "/images/bulb_on.gif";
+        lii.add(new GrayScale(file1, web_server+file1, 2));
+        lii.get(1).read_image();
+
+        String file2 = "/images/bulb_off.png";
+        lii.add(new GrayScale(file2, web_server+file2, 7));
+        lii.get(2).read_image();
+
+        model.addAttribute("lii", lii);
+        return "Minilab/minilab4.1"; // returns HTML VIEW ()
+    }
+
+    @GetMapping("/grayscale")
+    public String GrayScale(Model model) {
         String web_server = "https://localhost:5000";
         List<GrayScale> lii = new ArrayList<>();
 
@@ -40,7 +61,6 @@ public class minilabs {
         String str = lii.get(0).grayscale();
 //        String str = lii.get(0).grayscale();
         model.addAttribute("str", str);
-        return "Minilab/minilab4"; // returns HTML VIEW ()
+        return "Minilab/minilab4.2";
     }
-
 }
