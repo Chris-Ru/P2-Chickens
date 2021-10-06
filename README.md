@@ -4,7 +4,7 @@ project idea: We are going to provide a website of service that will rate news s
 - [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
-## Prototype Sprint End plus Unit 4
+## Prototype Sprint End Plus Unit 4
 
 ### 10 Points (Scrum Master | Self Grade)
 
