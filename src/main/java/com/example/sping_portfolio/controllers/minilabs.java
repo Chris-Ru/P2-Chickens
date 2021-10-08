@@ -35,20 +35,16 @@ public class minilabs {
         String web_server = "http://localhost:5000/";
         List<GrayScale> lii = new ArrayList<>();
 
-        String file0 = "/images/Mona_Lisa.png";
+        String file0 = "/images/joe2.png";
         lii.add(new GrayScale(file0, web_server+file0, 12));
         lii.get(0).read_image();
 
-        String file1 = "/images/bulb_on.gif";
+        String file1 = "/images/joe3.png";
         lii.add(new GrayScale(file1, web_server+file1, 2));
         lii.get(1).read_image();
 
-        String file2 = "/images/bulb_off.png";
-        lii.add(new GrayScale(file2, web_server+file2, 7));
-        lii.get(2).read_image();
-
         model.addAttribute("lii", lii);
-        return "Minilab/minilab4.1"; // returns HTML VIEW ()
+        return "Minilab/minilab4.2"; // returns HTML VIEW ()
     }
 
     @GetMapping("/grayscale")
@@ -56,11 +52,11 @@ public class minilabs {
         String web_server = "https://localhost:5000";
         List<GrayScale> lii = new ArrayList<>();
 
-        String file0 = "/images/chicken.jpg";
+        String file0 = "/images/joe2.png";
         lii.add(new GrayScale(file0, web_server+file0, 12));
         String str = lii.get(0).grayscale();
-//        String str = lii.get(0).grayscale();
+//        String str = lii.get(1).grayscale();
         model.addAttribute("str", str);
-        return "Minilab/minilab4.2";
+        return "Minilab/minilab4.1";
     }
 }
