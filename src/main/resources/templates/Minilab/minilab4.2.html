@@ -10,11 +10,11 @@
   </div>
 </head>
 
-<body>
+<body style="background: linear-gradient(135deg, rgba(41,161,54,1) 0%, rgba(131,140,125,1) 51%, rgba(38,38,38,1) 100%);">
 <div layout:fragment="content" th:remove="tag">
   <div class="container">
     <h1 class="text-center">RGB values within an Image</h1>
-    <p><small><a href="/image/grayscale">Grayscale</a></small></p>
+    <p><a href="/grayscale">Grayscale</a></p>
     <div class="row justify-content-md-center">
       <table class="table">
         <thead>
@@ -47,14 +47,14 @@
                 </thead>
                 <tbody>
                 <span th:each="row: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
-                                        <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
-                                            <td th:text="${ii.getScaled_height(row)}">row</td>
-                                            <td th:text="${ii.getScaled_width(col)}">column</td>
-                                            <td th:text="${ii.getRGB(row,col)}">cell</td>
-                                            <td th:text="${ii.getHexCode(row,col)}">cell</td>
-                                            <td th:text="${ii.getBinary(row,col)}">cell</td>
-                                        </tr>
-                                    </span>
+                  <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                    <td th:text="${ii.getScaled_height(row)}">row</td>
+                    <td th:text="${ii.getScaled_width(col)}">column</td>
+                    <td th:text="${ii.getRGB(row,col)}">cell</td>
+                    <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                    <td th:text="${ii.getBinary(row,col)}">cell</td>
+                  </tr>
+                </span>
                 </tbody>
               </table>
             </div>

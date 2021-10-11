@@ -1,17 +1,15 @@
-package com.example.sping_portfolio.Minilab;
+package com.example.sping_portfolio.Minilab.grayscale;
 
 import lombok.Getter;
 import org.apache.tomcat.util.codec.binary.Base64;
-import org.apache.tomcat.util.codec.binary.StringUtils;
 
-import java.awt.image.DataBufferByte;
-import java.awt.image.WritableRaster;
-import java.io.*;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.awt.Color;
-import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferByte;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.net.URL;
 
 @Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
 public class GrayScale {
@@ -29,7 +27,7 @@ public class GrayScale {
     }
 
     // sets for properties of the image, including pixels and colors
-    public Exception read_image() {
+    public void read_image() {
         try{
             BufferedImage img = ImageIO.read(new URL(this.url));
             this.height = img.getHeight();
@@ -51,10 +49,8 @@ public class GrayScale {
             }
 
         } catch (Exception e) {
-            return e;
         }
 
-        return null;
     }
 
 

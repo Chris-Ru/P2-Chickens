@@ -3,7 +3,7 @@ package com.example.sping_portfolio.controllers;
  * Web Content with Spring MVCSpring Example: https://spring.io/guides/gs/serving-web-con
  */
 
-import com.example.sping_portfolio.Minilab.GrayScale;
+import com.example.sping_portfolio.Minilab.grayscale.GrayScale;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,12 +35,12 @@ public class minilabs {
         String web_server = "http://localhost:5000/";
         List<GrayScale> lii = new ArrayList<>();
 
-        String file0 = "/images/joe2.png";
+        String file0 = "/images/joe3.png";
         lii.add(new GrayScale(file0, web_server+file0, 12));
         lii.get(0).read_image();
 
-        String file1 = "/images/joe3.png";
-        lii.add(new GrayScale(file1, web_server+file1, 2));
+        String file1 = "/images/joe4.png";
+        lii.add(new GrayScale(file1, web_server+file1, 12));
         lii.get(1).read_image();
 
         model.addAttribute("lii", lii);
@@ -52,7 +52,7 @@ public class minilabs {
         String web_server = "https://localhost:5000";
         List<GrayScale> lii = new ArrayList<>();
 
-        String file0 = "/images/joe2.png";
+        String file0 = "/images/joe4.png";
         lii.add(new GrayScale(file0, web_server+file0, 12));
         String str = lii.get(0).grayscale();
 //        String str = lii.get(1).grayscale();
