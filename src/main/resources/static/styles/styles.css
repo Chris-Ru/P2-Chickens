@@ -42,8 +42,6 @@ a:hover{
   font-size:25px;
   position: relative;
   top:75px;
-  width:900px;
-  word-break:normal;
   text-shadow: 2px 2px 5px #202020;
 }
 
@@ -142,6 +140,38 @@ a:hover{
   font-size: 70px;
 }
 
+@media screen and (max-width: 1200px) {
+  .b2-left,.b2-right,.h3-scale {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .welcome-text {
+    font-size: 60px;
+  }
+
+  .welcome-subtext {
+    font-size: 45px;
+  }
+
+  .b2-left,.b2-right,.h3-scale {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .b2-left,.b2-right {
+    font-size: 11.5px;
+  }
+
+  .submit {
+     margin-right: 25px;
+  }
+}
+
+
+
 .b1-arrow {
   margin: 8% 0;
   color: white;
@@ -213,7 +243,7 @@ a:hover{
   height:62vh;
   width:70%;
   border-radius: 40px;
-  padding: 40px;
+  padding: 30px;
   font-size: 25px;
   backdrop-filter: blur(7px);
   z-index: 1;
@@ -267,7 +297,7 @@ a:hover{
 }
 
 .input-box {
-  width: 350px;
+  width: 300px;
   height: 50px;
   border: white;
   border-radius: 15px 0 0 15px;
@@ -297,7 +327,6 @@ a:hover{
 
 .submit:active {
   background-color: rgb(150, 150, 150);
-  width: 85px;
   transform: scale(1.1);
   box-shadow: 1px 1px 5px rgb(56, 56, 56);
   border-radius: 2px 15px 15px 2px;
