@@ -1,6 +1,5 @@
 package com.example.sping_portfolio.Minilab.Minilab4.Shekar;
 
-import com.example.sping_portfolio.Minilab.Minilab4.Dylan.method_recursive;
 
 public class summation extends backend{
     //variables
@@ -14,7 +13,6 @@ public class summation extends backend{
     }
 
     @Override
-    //a recursive function runs itself until its base case is reached
     public int findsum() {
         while (this.num1 > 0) {
             this.summ = this.summ + this.num1;

@@ -17,7 +17,6 @@ public class SKcontroller {
     public String backend(@RequestParam(name="num1", required=false, defaultValue="0") int num1,
                       Model model){
 
-        //list objects
 
 
         //creates class
