@@ -3,7 +3,7 @@ package com.example.sping_portfolio.controllers;
  * Web Content with Spring MVCSpring Example: https://spring.io/guides/gs/serving-web-con
  */
 
-import com.example.sping_portfolio.Minilab.grayscale.GrayScale;
+import com.example.sping_portfolio.Minilab.grayscale.ImageInfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,18 +29,18 @@ public class minilabs {
         return "Minilab/minilab2"; // returns HTML VIEW ()
     }
 
-    @GetMapping("/gray")
+    @GetMapping("/base64")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Gray(Model model) {
         String web_server = "http://localhost:5000/";
-        List<GrayScale> lii = new ArrayList<>();
+        List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/joe3.png";
-        lii.add(new GrayScale(file0, web_server+file0, 12));
+        lii.add(new ImageInfo(file0, web_server+file0, 12));
         lii.get(0).read_image();
 
         String file1 = "/images/joe4.png";
-        lii.add(new GrayScale(file1, web_server+file1, 12));
+        lii.add(new ImageInfo(file1, web_server+file1, 12));
         lii.get(1).read_image();
 
         model.addAttribute("lii", lii);
@@ -49,14 +49,19 @@ public class minilabs {
 
     @GetMapping("/grayscale")
     public String GrayScale(Model model) {
-        String web_server = "https://localhost:5000";
-        List<GrayScale> lii = new ArrayList<>();
+        String web_server = "http://localhost:5000/";
+        List<ImageInfo> lii = new ArrayList<>();
 
-        String file0 = "/images/joe4.png";
-        lii.add(new GrayScale(file0, web_server+file0, 12));
+        String file0 = "/images/logo.png";
+        lii.add(new ImageInfo(file0, web_server+file0, 12));
         String str = lii.get(0).grayscale();
-//        String str = lii.get(1).grayscale();
+
+        String file1 = "/images/joe2.png";
+        lii.add(new ImageInfo(file1, web_server+file1, 12));
+        String str1 = lii.get(1).grayscale();
+
         model.addAttribute("str", str);
+        model.addAttribute("str1", str1);
         return "Minilab/minilab4.1";
     }
 }
