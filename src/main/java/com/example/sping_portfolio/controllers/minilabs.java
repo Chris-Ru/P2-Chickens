@@ -48,7 +48,7 @@ public class minilabs {
     }
 
     @GetMapping("/grayscale")
-    public String GrayScale(Model model) {
+    public String GrayScale(@RequestParam(name="gray", required=false, defaultValue ="false") boolean gray,Model model) {
         String web_server = "http://localhost:5000/";
         List<ImageInfo> lii = new ArrayList<>();
 
@@ -60,8 +60,11 @@ public class minilabs {
         lii.add(new ImageInfo(file1, web_server+file1, 12));
         String str1 = lii.get(1).grayscale();
 
+
         model.addAttribute("str", str);
         model.addAttribute("str1", str1);
+        model.addAttribute("gray", gray);
+
         return "Minilab/minilab4.1";
     }
 }

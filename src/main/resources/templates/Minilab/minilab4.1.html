@@ -10,12 +10,28 @@
 <div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <br><br><center><h1>Turning Pictures into Grayscale</h1><br>
-
+    <form id="gcfForm" action="" method="GET">
+        <select name="gray" id="gray" class="form-control">
+            <option value="false">Color</option>
+            <option value="true">Gray</option>
+        </select>
+        <button>Go!</button>
+    </form>
     <div class="gray-images">
-        <img class="solo-img" src="" th:src="@{images/logo.png}" alt="gray" width="300px" height="300px">
-        <img class="solo-img" src="" th:src="${str}" alt="gray" width="300px" height="300px">
-        <img class="solo-img" src="" th:src="@{images/joe2.png}" alt="gray" width="300px" height="300px">
-        <img class="solo-img" src="" th:src="${str1}" alt="breakfast" width="300px" height="300px">
+        <!-- color -->
+        <span th:if="${gray == false}">
+             <img class="solo-img" src="" th:src="@{images/logo.png}" alt="gray" width="300px" height="300px">
+        </span>
+        <span th:if="${gray == false}">
+            <img class="solo-img" src="" th:src="@{images/joe2.png}" alt="gray" width="300px" height="300px">
+        </span>
+        <!-- gray -->
+        <span th:if="${gray == true}">
+            <img class="solo-img" src="" th:src="${str}" alt="gray" width="300px" height="300px">
+        </span>
+        <span th:if="${gray == true}">
+            <img class="solo-img" src="" th:src="${str1}" alt="breakfast" width="300px" height="300px">
+        </span>
     </div>
 
     <!-- End of body content specific to page -->
