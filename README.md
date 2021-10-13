@@ -23,7 +23,7 @@ Details help on Individual data 
 ## Time Box
 CS = Chris+Shekar; DS = Dylan+Sam
 Week #|Artifacts
----|---
+---|-----------
 Week 1|
 Week 2|
 Week 3|
