@@ -30,7 +30,7 @@ Week 3|
 Week 4|
 Week 5|
 Week 6|
-Week 7|[Video(Chris+Sam)](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be); [Video(Dylan)](https://drive.google.com/file/d/18E9ly4YgsW8kVgALi233ZkffcU8t_g7I/view?usp=sharing);[Video(Shekar)]()
+Week 7|[Video(Chris+Sam)](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be); [Video(Dylan)](https://drive.google.com/file/d/18E9ly4YgsW8kVgALi233ZkffcU8t_g7I/view?usp=sharing);[Video(Shekar)](https://drive.google.com/file/d/1AUldRQf7h_-25wDrUAy6kurp1y9vqdYZ/view?usp=sharing)
 
 
 ## Model Improvement w/ videos
