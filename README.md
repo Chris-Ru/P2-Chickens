@@ -30,7 +30,7 @@ Week 3|
 Week 4|
 Week 5|
 Week 6|
-Week 7|[Video(Chris+Sam)](https://github.com/Chris-Ru/P2-Chickens/issues/34)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be);[Dylan](https://github.com/Chris-Ru/P2-Chickens/commit/39f2e710e1beb6cbbf33a59fac7d2786cf3c795c);[Shekar]()
+Week 7|[Video(Chris+Sam)](https://github.com/Chris-Ru/P2-Chickens/issues/34)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be) [Dylan](https://github.com/Chris-Ru/P2-Chickens/commit/39f2e710e1beb6cbbf33a59fac7d2786cf3c795c) [Shekar]()
 
 
 ## Model Improvement w/ videos
