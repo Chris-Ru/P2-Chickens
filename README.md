@@ -4,21 +4,17 @@ project idea: We are going to provide a website of service that will rate news s
 - [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
+## Description:
+
+
 ## Pop Quiz
-P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), [GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)
-
-- Chris, Chris-Ru
-- Sam,  samkoenig9
-- Dylan, dylanroman
-- Shekar,  shekark642
-
-Details help on Individual data 
-
-- Filter Scrum board by individual (assignee) - [Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
-
-- Filter GitHub commits by contributor - [Chris](https://github.com/Chris-Ru/P2-Chickens/commits?author=Chris-Ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/commits?author=dylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)
-
-- Show GitHub profile for individual - [Chris](https://github.com/Chris-Ru), [Sam](https://github.com/samkoenig9), [Dylan](https://github.com/dylanroman), [Shekar](https://github.com/shekark642)
+### Scrum Team Name: P2-Chickens
+Names|Scrum Board|Repo Contributors Graph|Github ID|Filter Scrum board by individual (assignee)|Filter GitHub commits by contributor|Show GitHub profile for individual
+---|---|---|---|---|---|---
+Chris|[Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)|[GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)|Chris-Ru|[Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru)|[Chris](https://github.com/Chris-Ru/P2-Chickens/commits?author=Chris-Ru)|[Chris](https://github.com/Chris-Ru)
+Dylan|||dylanroman|[Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman)|[Dylan](https://github.com/Chris-Ru/P2-Chickens/commits?author=dylanroman)|[Dylan](https://github.com/dylanroman)
+Sam|||samkoenig9|[Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9)|[Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9)|[Sam](https://github.com/samkoenig9)
+Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)|[Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)|[Shekar](https://github.com/shekark642)
 
 ## Time Box
 CS = Chris+Shekar; DS = Dylan+Sam
