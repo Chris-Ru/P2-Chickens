@@ -28,7 +28,7 @@ Contributor|Issue|Video|Description
 ---|---|---|---
 Chris|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/31)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be)|Clone rgb code, implement into aboutus page, create grayscale html page
 Dylan|[Link](https://github.com/Chris-Ru/P2-Chickens/commit/39f2e710e1beb6cbbf33a59fac7d2786cf3c795c)|[Video]()|Implement toggle for greyscale and colored images
-Sam|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/34)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be)|...
+Sam|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/34)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be)|Make mobile view look better and actually functional
 Shekar|[Link]()|[Video]()|...
 
 ## Prototype Sprint End Plus Unit 4
