@@ -1,6 +1,5 @@
 package com.example.sping_portfolio.Minilab.Minilab4.Shekar;
 
-
 public class summation extends backend{
     //variables
     private int summ;
