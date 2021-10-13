@@ -24,7 +24,7 @@ Details help on Individual data 
 CS = Chris+Shekar; DS = Dylan+Sam
 Week #|Artifacts
 ---|---
-Week 7|[Video(Chris+Sam)](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be); [Video(Dylan)](https://drive.google.com/file/d/18E9ly4YgsW8kVgALi233ZkffcU8t_g7I/view?usp=sharing);[Video(Shekar)](https://drive.google.com/file/d/1AUldRQf7h_-25wDrUAy6kurp1y9vqdYZ/view?usp=sharing)
+Week 7|[Video Playlist](https://www.youtube.com/watch?v=bnaKwuTJoFw&list=PLLCeTVRu6G5GAgYwuXTz2gKVSCZ0caf_B)
 Week 6|
 Week 5|
 Week 4|
