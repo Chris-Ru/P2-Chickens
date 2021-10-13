@@ -20,6 +20,16 @@ Details help on Individual data 
 
 - Show GitHub profile for individual - [Chris](https://github.com/Chris-Ru), [Sam](https://github.com/samkoenig9), [Dylan](https://github.com/dylanroman), [Shekar](https://github.com/shekark642)
 
+## Model Improvement w/ videos
+
+Chris + Sam video: [video with only sam and chris' work(Shekar and Dylan will send separately)](https://www.youtube.com/watch?v=bnaKwuTJoFw)
+
+Contributor|Issue|Description
+---|---|---
+Chris|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/31)|Clone rgb code, implement into aboutus page, create grayscale html page
+Dylan|[Link]()|...
+Sam|[Link]()|...
+Shekar|[Link]()|...
 
 ## Prototype Sprint End Plus Unit 4
 
