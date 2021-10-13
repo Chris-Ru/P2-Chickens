@@ -20,6 +20,19 @@ Details help on Individual data 
 
 - Show GitHub profile for individual - [Chris](https://github.com/Chris-Ru), [Sam](https://github.com/samkoenig9), [Dylan](https://github.com/dylanroman), [Shekar](https://github.com/shekark642)
 
+## Time Box
+CS = Chris+Shekar; DS = Dylan+Sam
+Week #|Artifacts
+---|---
+Week 1|
+Week 2|
+Week 3|
+Week 4|
+Week 5|
+Week 6|
+Week 7|[Video(Chris+Sam)](https://github.com/Chris-Ru/P2-Chickens/issues/34)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be);[Dylan](https://github.com/Chris-Ru/P2-Chickens/commit/39f2e710e1beb6cbbf33a59fac7d2786cf3c795c);[Shekar]()
+
+
 ## Model Improvement w/ videos
 
 Chris + Sam video: [video with only sam and chris' work(Shekar and Dylan will send separately)](https://www.youtube.com/watch?v=bnaKwuTJoFw)
