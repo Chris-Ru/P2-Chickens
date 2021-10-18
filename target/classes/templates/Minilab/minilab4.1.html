@@ -17,20 +17,30 @@
         </select>
         <button>Go!</button>
     </form>
+
+    <h2>Upload File Example</h2>
+    <p th:text="${message}" th:if="${message ne null}" class="alert alert-primary"></p>
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <input type="file" name="file" multiple accept="image/*" class="form-control-file">
+        </div>
+        <button type="submit" class="btn btn-primary">Upload File</button>
+    </form>
+
     <div class="gray-images">
         <!-- color -->
-        <span th:if="${gray == false}">
-             <img class="solo-img" src="" th:src="@{images/logo.png}" alt="gray" width="300px" height="300px">
+        <span th:if="${file == false}">
+             <img class="solo-img" src="" th:src="@{images/logo.png}" alt="color" width="300px" height="300px">
         </span>
-        <span th:if="${gray == false}">
-            <img class="solo-img" src="" th:src="@{images/joe2.png}" alt="gray" width="300px" height="300px">
+        <span th:if="${file == false}">
+            <img class="solo-img" src="" th:src="@{images/joe2.png}" alt="color" width="300px" height="300px">
         </span>
         <!-- gray -->
-        <span th:if="${gray == true}">
+        <span th:if="${file == true}">
             <img class="solo-img" src="" th:src="${str}" alt="gray" width="300px" height="300px">
         </span>
-        <span th:if="${gray == true}">
-            <img class="solo-img" src="" th:src="${str1}" alt="breakfast" width="300px" height="300px">
+        <span th:if="${file == true}">
+            <img class="solo-img" src="" th:src="${str1}" alt="gray" width="300px" height="300px">
         </span>
     </div>
 

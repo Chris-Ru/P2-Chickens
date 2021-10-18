@@ -4,11 +4,21 @@ package com.example.sping_portfolio.controllers;
  */
 
 import com.example.sping_portfolio.Minilab.grayscale.ImageInfo;
+import org.springframework.data.jpa.domain.JpaSort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,7 +58,7 @@ public class minilabs {
     }
 
     @GetMapping("/grayscale")
-    public String GrayScale(@RequestParam(name="gray", required=false, defaultValue ="false") boolean gray,Model model) {
+    public String GrayScale(@RequestParam(name="gray", required=false, defaultValue ="false") boolean gray, Model model) {
         String web_server = "http://localhost:5000/";
         List<ImageInfo> lii = new ArrayList<>();
 
@@ -63,7 +73,7 @@ public class minilabs {
 
         model.addAttribute("str", str);
         model.addAttribute("str1", str1);
-        model.addAttribute("gray", gray);
+        model.addAttribute("file", gray);
 
         return "Minilab/minilab4.1";
     }
