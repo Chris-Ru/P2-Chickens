@@ -9,11 +9,18 @@
     <h2 th:text="${message}"></h2>
 </div>
 
-<div style="margin-top: 8px;">
+<div style="margin-top: 10px;">
     <form method="POST" enctype="multipart/form-data" action="/upload">
         <table>
-            <tr><td>File to upload:</td><td><input type="file" name="file" multiple accept="image/*" /></td></tr>
-            <tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+            <tr>
+                <td>File to upload:</td>
+                <td>
+                    <input type="file" name="file" multiple accept="image/*" />
+                </td>
+            </tr>
+            <tr>
+                <td></td><td><input type="submit" value="Upload" /></td>
+            </tr>
         </table>
     </form>
 </div>
