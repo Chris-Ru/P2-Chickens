@@ -4,6 +4,39 @@ project idea: We are going to provide a website of service that will rate news s
 - [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
+## Description:
+
+
+## Pop Quiz
+### Scrum Team Name: P2-Chickens
+Names|Scrum Board|Repo Contributors Graph|Github ID|Filter Scrum board by individual (assignee)|Filter GitHub commits by contributor|Show GitHub profile for individual
+---|---|---|---|---|---|---
+Chris|[Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)|[GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)|Chris-Ru|[Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru)|[Chris](https://github.com/Chris-Ru/P2-Chickens/commits?author=Chris-Ru)|[Chris](https://github.com/Chris-Ru)
+Dylan|||dylanroman|[Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman)|[Dylan](https://github.com/Chris-Ru/P2-Chickens/commits?author=dylanroman)|[Dylan](https://github.com/dylanroman)
+Sam|||samkoenig9|[Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9)|[Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9)|[Sam](https://github.com/samkoenig9)
+Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)|[Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)|[Shekar](https://github.com/shekark642)
+
+## Time Box
+
+Week #|Artifacts
+---|---
+Week 7|[Video Playlist](https://www.youtube.com/watch?v=bnaKwuTJoFw&list=PLLCeTVRu6G5GAgYwuXTz2gKVSCZ0caf_B)
+Week 6|
+Week 5|
+Week 4|
+Week 3|
+Week 2|
+Week 1|
+
+## Model Improvement w/ videos
+
+Contributor|Issue|Video|Description
+---|---|---|---
+Chris|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/31)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be)|Clone rgb code, implement into aboutus page, create grayscale html page
+Dylan|[Link](https://github.com/Chris-Ru/P2-Chickens/commit/39f2e710e1beb6cbbf33a59fac7d2786cf3c795c)|[Video](https://drive.google.com/file/d/18E9ly4YgsW8kVgALi233ZkffcU8t_g7I/view?usp=sharing)|Implement toggle for greyscale and colored images
+Sam|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/34)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be)|Make mobile view look better and actually functional
+Shekar|[Link]()|[Video](https://drive.google.com/file/d/1AUldRQf7h_-25wDrUAy6kurp1y9vqdYZ/view?usp=sharing)|Finished algorithm and sigma summation code for minilab, displayed on front end as well
+
 ## Prototype Sprint End Plus Unit 4
 
 ### 10 Points (Scrum Master | Self Grade)
@@ -62,23 +95,6 @@ Table for this week's tickets
 ### MiniLabs
 - [Minilab 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/controllers/minilabs.java#L12-L18)
 - [Minilab 2](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/controllers/minilabs.java#L20-L24)
-
-## Pop Quiz
-P2-Chickens, [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1), [GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)
-
-- Chris, Chris-Ru
-- Sam,  samkoenig9
-- Dylan, dylanroman
-- Shekar,  shekark642
-
-Details help on Individual data 
-
-- Filter Scrum board by individual (assignee) - [Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)
-
-- Filter GitHub commits by contributor - [Chris](https://github.com/Chris-Ru/P2-Chickens/commits?author=Chris-Ru), [Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9), [Dylan](https://github.com/Chris-Ru/P2-Chickens/commits?author=dylanroman), [Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)
-
-- Show GitHub profile for individual - [Chris](https://github.com/Chris-Ru), [Sam](https://github.com/samkoenig9), [Dylan](https://github.com/dylanroman), [Shekar](https://github.com/shekark642)
-
 
 ## PBL 1-2 + Unit 2
 ### Individual Scores: Reasoning seen below for each category

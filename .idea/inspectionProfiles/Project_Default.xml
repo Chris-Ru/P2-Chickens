@@ -9,7 +9,7 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="15">
+          <list size="16">
             <item index="0" class="java.lang.String" itemvalue="layout:decorate" />
             <item index="1" class="java.lang.String" itemvalue="layout:fragment" />
             <item index="2" class="java.lang.String" itemvalue="th:remove" />
@@ -25,6 +25,7 @@
             <item index="12" class="java.lang.String" itemvalue="th:each" />
             <item index="13" class="java.lang.String" itemvalue="th:action" />
             <item index="14" class="java.lang.String" itemvalue="th:object" />
+            <item index="15" class="java.lang.String" itemvalue="th:if" />
           </list>
         </value>
       </option>

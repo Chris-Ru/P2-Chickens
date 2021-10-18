@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+
+<body style="background: linear-gradient(135deg, rgba(41,161,54,1) 0%, rgba(131,140,125,1) 51%, rgba(38,38,38,1) 100%);">
+<div layout:fragment="content" th:remove="tag">
+
+<div th:if="${message}">
+    <h2 th:text="${message}"></h2>
+</div>
+
+<div style="margin-top: 10px;">
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+        <table>
+            <tr>
+                <td>File to upload:</td>
+                <td>
+                    <input type="file" name="file" multiple accept="image/*" />
+                </td>
+            </tr>
+            <tr>
+                <td></td><td><input type="submit" value="Upload" /></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<div>
+    <ul>
+        <li th:each="file : ${files}">
+            <img th:src="@{${file}}" width="640px" height="320px"  alt=""/>
+            <a th:href="${file}" th:text="${file}"></a>
+        </li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
