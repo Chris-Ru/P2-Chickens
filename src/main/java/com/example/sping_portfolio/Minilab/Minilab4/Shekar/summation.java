@@ -23,7 +23,7 @@ public class summation extends backend{
 
     @Override
     public String getMethod(){
-        return "Recursive";
+        return "while";
     }
 
 
