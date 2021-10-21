@@ -42,7 +42,7 @@ public class minilabs {
     @GetMapping("/base64")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String Gray(Model model) {
-        String web_server = "http://localhost:5000/";
+        String web_server = "http://localhost:8080/";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/joe3.png";
@@ -59,7 +59,7 @@ public class minilabs {
 
     @GetMapping("/grayscale")
     public String GrayScale(@RequestParam(name="gray", required=false, defaultValue ="false") boolean gray, Model model) {
-        String web_server = "http://localhost:5000/";
+        String web_server = "http://localhost:8080/";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/logo.png";

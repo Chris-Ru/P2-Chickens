@@ -22,7 +22,7 @@ public class Aboutus {
     @GetMapping("/bwaboutus")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String bwaboutus(Model model) {
-        String web_server = "http://localhost:5000/";
+        String web_server = "http://localhost:8080/";
         List<ImageInfo> lii = new ArrayList<>();
 
         String file0 = "/images/joe5.png";
