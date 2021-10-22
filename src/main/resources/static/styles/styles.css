@@ -21,6 +21,12 @@ a:hover{
   background-attachment: fixed;
 }
 
+.ns-bg {
+  background-image: url("../images/ns_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .about-header {
   text-align: center;
   text-decoration: none;
@@ -101,6 +107,7 @@ a:hover{
 .cnav {
   background-color: rgba(43, 43, 43, 0.8);
   backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   text-decoration: none;
   position: absolute;
   width: 95%;
@@ -170,7 +177,13 @@ a:hover{
   }
 }
 
+@media screen and (max-width: 600px) {
+  table, th, td {
+    font-size: 14px;
+  }
 
+  
+}
 
 .b1-arrow {
   margin: 8% 0;
@@ -385,4 +398,21 @@ a:hover{
   60% {
     transform: translateY(-5px);
   }
+}
+
+.ns-card {
+  padding: 50px;
+  margin: 50px;
+  margin-top: 7%;
+  width: 70%;
+  color: white;
+  height: auto;
+  background-color: rgba(43, 43, 43, 0.8);
+  border-radius: 50px;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+table, th, td {
+  border:2px solid white;
 }

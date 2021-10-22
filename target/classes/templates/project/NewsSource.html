@@ -7,47 +7,31 @@
     <link th:href="@{/styles/styles.css}" rel="stylesheet" />
 </head>
 
-<body>
-<div th:replace="fragments/nav1 :: header"></div>
+<body class="ns-bg">
+    <div th:replace="fragments/nav1 :: header"></div>
+    <div layout:fragment="content"></div>
+    <div layout:fragment="script"></div>
 
-<div layout:fragment="content"></div>
+    <center><div class="ns-card">
+        <h1 style="padding-bottom: 30px;">News Source Bias</h1>
+        <table style="width:100%; font-size: 30px;">
+            <tr>
+                <th>News Source</th>
+                <th>Political Bias</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>CNN</td>
+                <td>Left</td>
+                <td><a href="https://www.cnn.com/2021/09/12/asia/north-korea-missile-launch-new-intl/index.html">Article</a></td>
+            </tr>
+            <tr>
+                <td>Fox News</td>
+                <td>Right</td>
+                <td><a href="https://www.foxnews.com/live-news/live-updates-2021-mtv-vmas">Article</a></td>
+            </tr>
+        </table>
+    </div></center>
 </body>
-
-<div layout:fragment="script"></div>
-
-
-<head>
-    <h1 style = "padding-top: 70px; padding-bottom: 30px"> We Rate News Sources Here</h1>
-</head>
-<style>
-    table, th, td {
-        border:2px solid black;
-    }
-</style>
-<body>
-
-
-<table style="width:100%; font-size: 30px; color: black">
-    <tr>
-        <th>News Source</th>
-        <th>Political Bias</th>
-        <th>Example</th>
-    </tr>
-    <tr>
-        <td>CNN</td>
-        <td>Left</td>
-        <td><a href="https://www.cnn.com/2021/09/12/asia/north-korea-missile-launch-new-intl/index.html">Article</a></td>
-
-    </tr>
-    <tr>
-        <td>Fox News</td>
-        <td>Right</td>
-        <td><a href="https://www.foxnews.com/live-news/live-updates-2021-mtv-vmas">Article</a></td>
-
-    </tr>
-</table>
-
-</body>
-
 
 </html>
