@@ -20,6 +20,8 @@ Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?
 
 Week #|Artifacts
 ---|---
+Week 9|[Chris]()[Dylan]()[Sam]()[Shekar]()
+Week 8|
 Week 7|[Video Playlist](https://www.youtube.com/watch?v=bnaKwuTJoFw&list=PLLCeTVRu6G5GAgYwuXTz2gKVSCZ0caf_B)
 Week 6|
 Week 5|
