@@ -25,7 +25,7 @@ Week 10|Ascii Art Minilab; [Chris+Dylan Example](https://github.com/Chris-Ru/P2-
 Week 9|[Issues with artifacts](https://github.com/Chris-Ru/P2-Chickens/issues/40)
 Week 8|Peer Review grading + live review; [Ticket](https://github.com/Chris-Ru/P2-Chickens/issues/37)
 Week 7|[Video Playlist](https://www.youtube.com/watch?v=bnaKwuTJoFw&list=PLLCeTVRu6G5GAgYwuXTz2gKVSCZ0caf_B)
-Week 6|Individual Abstract Class Minilab; Chris Minilab [Front-end](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/AbstractPal.html) + [Back-end](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/Minilab/ChrisFib/CSAlgoController.java)
+Week 6|Individual Abstract Class Minilab; Chris Palindrome [Front-end](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/AbstractPal.html) + [Back-end](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/Minilab/ChrisFib/CSAlgoController.java)
 Week 5|Canceled RGB/grayscale minilab
 Week 4|Create [video](https://drive.google.com/file/d/1MVSilXfkMNKaiN2hy5tN13f6uh6UUGU6/view) about runtime+technicals
 Week 3|Work on [Bits Minilab](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab2.html)
