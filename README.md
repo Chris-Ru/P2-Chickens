@@ -20,15 +20,17 @@ Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?
 
 Week #|Artifacts
 ---|---
+Week 11|N@tM Prep with 3 Technicals
+Week 10|Ascii Art Minilab; [Chris+Dylan Example](https://github.com/Chris-Ru/P2-Chickens/tree/main/src/main/java/com/example/sping_portfolio/Minilab/Chris_Dylan_ascii)
 Week 9|[Issues with artifacts](https://github.com/Chris-Ru/P2-Chickens/issues/40)
-Week 8|
+Week 8|Peer Review grading + live review; [Ticket](https://github.com/Chris-Ru/P2-Chickens/issues/37)
 Week 7|[Video Playlist](https://www.youtube.com/watch?v=bnaKwuTJoFw&list=PLLCeTVRu6G5GAgYwuXTz2gKVSCZ0caf_B)
-Week 6|
-Week 5|
-Week 4|
-Week 3|
-Week 2|
-Week 1|
+Week 6|Individual Abstract Class Minilab; Chris Minilab [Front-end](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/AbstractPal.html) + [Back-end](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/Minilab/ChrisFib/CSAlgoController.java)
+Week 5|Canceled RGB/grayscale minilab
+Week 4|Create [video](https://drive.google.com/file/d/1MVSilXfkMNKaiN2hy5tN13f6uh6UUGU6/view) about runtime+technicals
+Week 3|Work on [Bits Minilab](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab2.html)
+Week 2|[Hackathon 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab1.html) with Birds and Greet
+Week 1|Start [Journal CS](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing) and [Journal DS](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit), and [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)
 
 ## Model Improvement w/ videos
 
