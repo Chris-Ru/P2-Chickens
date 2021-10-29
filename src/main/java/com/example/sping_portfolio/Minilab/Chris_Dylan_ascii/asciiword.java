@@ -17,12 +17,12 @@ import java.util.Scanner;
  */
 public class asciiword {
 
-    public static final int ART_SIZE_SMALL = 12;
+    public static final int ART_SIZE_SMALL = 14;
     public static final int ART_SIZE_MEDIUM = 18;
     public static final int ART_SIZE_LARGE = 24;
     public static final int ART_SIZE_HUGE = 32;
 
-    private static final String DEFAULT_ART_SYMBOL = "&";
+    private static final String DEFAULT_ART_SYMBOL = "*";
 
     public enum ASCIIArtFont {
         ART_FONT_DIALOG("Dialog"), ART_FONT_DIALOG_INPUT("DialogInput"),
@@ -47,7 +47,8 @@ public class asciiword {
         System.out.print("Enter a string: ");
         String str= sc.nextLine();              //reads string
         artGen.printTextArt(str, asciiword.ART_SIZE_LARGE);
-        artGen.printTextArt("Done!", asciiword.ART_SIZE_SMALL);
+        System.out.println();
+        artGen.printTextArt("Done!", asciiword.ART_SIZE_SMALL, ASCIIArtFont.ART_FONT_MONO, "*");
         System.out.println();
 
     }
