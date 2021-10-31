@@ -9,7 +9,7 @@ public class Pal_String_Reverse extends _Pal {
     protected void init() {
         super.name = "String Reverse Loop";
         // creates empty builder, capacity 16
-        StringBuilder /* can name to anything -> */ sb = new /* <- */ StringBuilder(word);
+        StringBuilder sb = new StringBuilder(word);
         // reverse it
         sb.reverse();
         // return string representation of the word
