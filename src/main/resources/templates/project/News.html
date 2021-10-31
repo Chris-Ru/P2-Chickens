@@ -28,27 +28,29 @@
 <div th:replace="fragments/nav1 :: header"></div>
 <div layout:fragment="content"></div>
 <div layout:fragment="script"></div>
-<h1 style="text-align: center; margin-top: 1%"><strong>TidalWave News rapidapi.com </strong></h1>
+<h1 style="text-align: center; margin-top: 1%"><strong id=>NewsAPI News newsapi.org</strong></h1>
 <form style="text-align: center" action="/news" method="GET" id="refreshpage">
   <button>Refresh!</button>
 </form>
 
 <center>
+    <div class="container-fluid">
     <div class="ns-card">
-      <h1 style="padding-bottom: 30px;">News Source Bias</h1>
+      <h1 style="padding-bottom: 30px;">Articles on Fake News</h1>
       <table style="width:100%; font-size: 30px;">
-        <tr>
-          <th>Latest News Article Name</th>
-          <th>TimeStamp</th>
-        </tr>
-        <tr>
-          <td th:text="${news[1].gist}"></td>
-          <td th:text="${news[1].timestamp}"></td>
-        </tr>
+          <tr>
+            <th>Latest News Article Name</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>Source URL</th>
+          </tr>
+          <tr th:each="source: ${news}">
+            <td style="font-size: 20px;" th:text="${source.title}"></td>
+            <td style="font-size: 20px;" th:text="${source.description}"></td>
+            <td style="font-size: 20px;" th:text="${source.author}"></td>
+            <td style="font-size: 20px;"><a th:href="${source.url}" th:text="${source.url}"></a></td>
+          </tr>
       </table>
     </div></div></center>
 </body>
-
-
-
 </html>
