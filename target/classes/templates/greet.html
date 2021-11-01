@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
+      layout:decorate="~{layout1}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
   <!-- Start of head content specific to page -->
@@ -14,7 +14,7 @@
   <!-- Start of body content specific to page -->
   <div class="contact" style="height: 35vh;">
     <div class="row justify-content-left" style="margin: 2%;">
-      <form action="/" method="GET" id="greetForm">
+      <form action="/greet" method="GET" id="greetForm">
         <div>
           <label for="greetField">Type a greeting name?</label>
           <input name="name" id="greetField">

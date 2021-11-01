@@ -81,9 +81,6 @@ public class APIcontroller {
                 .build();
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 
-        //alternative #1: convert response.body() to java hash map
-        var map = new ObjectMapper().readValue(response.body(), HashMap.class);
-
         //alternative #2: convert response.body() to JSON object
         System.out.println(response.body());
         Object obj = new JSONParser().parse(response.body());
