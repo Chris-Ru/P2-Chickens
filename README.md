@@ -21,7 +21,7 @@ Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?
 Week #|Artifacts
 ---|---
 Week 11|N@tM Prep with 3 Technicals
-Week 10|Ascii Art Minilab; [Chris+Dylan Example](https://github.com/Chris-Ru/P2-Chickens/tree/main/src/main/java/com/example/sping_portfolio/Minilab/Chris_Dylan_ascii)
+Week 10|Ascii Art Minilab; [Chris+Dylan Example](https://github.com/Chris-Ru/P2-Chickens/tree/main/src/main/java/com/example/sping_portfolio/Minilab/Chris_Dylan_ascii); [shekar/sam example](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/Minilab/shekarsamascii.java)
 Week 9|[Issues with artifacts](https://github.com/Chris-Ru/P2-Chickens/issues/40)
 Week 8|Peer Review grading + live review for Grayscale Minilab; [Ticket](https://github.com/Chris-Ru/P2-Chickens/issues/37)
 Week 7|[Video Playlist](https://www.youtube.com/watch?v=bnaKwuTJoFw&list=PLLCeTVRu6G5GAgYwuXTz2gKVSCZ0caf_B)
