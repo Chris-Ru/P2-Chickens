@@ -36,12 +36,10 @@ public class APIcontroller {
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 
         //alternative #2: convert response.body() to JSON object
-        System.out.println(response.body());
         Object obj = new JSONParser().parse(response.body());
         JSONObject jo = (JSONObject) obj;
 
         System.out.println(jo.get("totalResults"));
-        System.out.println(jo.get("articles"));
         model.addAttribute("news", jo.get("articles"));
 
 //        // https://rapidapi.com/spamakashrajtech/api/corona-virus-world-and-india-data/
@@ -82,12 +80,10 @@ public class APIcontroller {
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 
         //alternative #2: convert response.body() to JSON object
-        System.out.println(response.body());
         Object obj = new JSONParser().parse(response.body());
         JSONObject jo = (JSONObject) obj;
 
         System.out.println(jo.get("totalResults"));
-        System.out.println(jo.get("articles"));
         model.addAttribute("news", jo.get("articles"));
         model.addAttribute("keyword", keyword);
 
