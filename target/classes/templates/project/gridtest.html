@@ -8,13 +8,13 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet"/>
 
 </div></head>
-<body><div layout:fragment="content" th:remove="tag">
-    <div style="margin-top: 15px"></div>
-    <table class="table">
+<body style = "background-color: gray"><div layout:fragment="content" th:remove="tag">
+    <div style="margin-top: 15px; font-family: 'Times New Roman', serif; font-size: 50px"></div>
+    <table class="table" style = "font-family: 'Times New Roman', serif; font-size: 30px">
         <!-- Head -->
         <thead>
         <tr>
-            <th scope="col" style="text-align: right">#</th>
+            <th scope="col" style="text-align: left">#</th>
             <th scope="col" style="text-align: right">Article Name</th>
             <th scope="col" style="text-align: right">Rating</th>
             <th scope="col" style="text-align: right">Number of Reviews</th>
@@ -24,7 +24,6 @@
         <tbody>
         <tr>
             <th scope ="row"></th>
-            <td>1</td>
             <td th:text="${source1name}"></td>
             <td th:text="${source1rating}"></td>
             <td th:text="${source1total}"></td>
@@ -32,7 +31,6 @@
 
         <tr>
             <th scope ="row"></th>
-            <td>2</td>
             <td th:text="${source2name}"></td>
             <td th:text="${source2rating}"></td>
             <td th:text="${source2total}"></td>
@@ -40,7 +38,6 @@
 
         <tr>
             <th scope ="row"></th>
-            <td>3</td>
             <td th:text="${source3name}"></td>
             <td th:text="${source3rating}"></td>
             <td th:text="${source3total}"></td>
