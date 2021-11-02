@@ -42,13 +42,11 @@
             <th style="text-align: left;">All News Articles with "fake"</th>
             <th style="text-align: left;">Description</th>
             <th style="text-align: left;">Author</th>
-            <th style="text-align: left;">Source URL</th>
           </tr>
           <tr th:each="source: ${news}">
-            <td style="text-align: left;" th:text="${source.title}"></td>
+            <td style="text-align: left;"><a th:href="${source.url}" th:text="${source.title}"></a></td>
             <td style="text-align: left;" th:text="${source.description}"></td>
             <td style="text-align: left;" th:text="${source.author}"></td>
-            <td style="text-align: left;"><a th:href="${source.url}" th:text="${source.url}"></a></td>
           </tr>
       </table>
     </div></div></center>
