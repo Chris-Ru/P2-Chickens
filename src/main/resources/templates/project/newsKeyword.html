@@ -35,11 +35,11 @@
 
 <h3 style="text-align: center">Pick a category</h3>
 <ul style="text-align: center">
-  <a href="key?keyword=science" class="button button1">science</a>
-  <a href="key?keyword=business" class="button button2">business</a>
-  <a href="key?keyword=entertainment" class="button button3">entertainment</a>
-  <a href="key?keyword=health" class="button button4">health</a>
-  <a href="key?keyword=technology" class="button button5">technology</a>
+  <a href="key?keyword=science" class="ui-button" style="background:rgba(83,138,228, 0.2)">science</a>
+  <a href="key?keyword=business" class="br-pill dib mb2 mr1 ph4 pv2" style="background:rgba(83,138,228, 0.2)">business</a>
+  <a href="key?keyword=entertainment" class="br-pill dib mb2 mr1 ph4 pv2" style="background:rgba(83,138,228, 0.2)">entertainment</a>
+  <a href="key?keyword=health" class="br-pill dib mb2 mr1 ph4 pv2" style="background:rgba(83,138,228, 0.2)">health</a>
+  <a href="key?keyword=technology" class="br-pill dib mb2 mr1 ph4 pv2" style="background:rgba(83,138,228, 0.2)">technology</a>
 </ul>
 
 
@@ -47,73 +47,20 @@
   <div class="container-fluid">
     <div class="ns-card">
       <h1>Articles on Fake News</h1>
-      <table>
+      <table style="width:100%;font-size: 20px;">
         <tr>
-          <th>Latest News Article Name + URL</th>
-          <th>Description</th>
-          <th>Author</th>
+          <th style="width:400px;">Latest News Article Name</th>
+          <th style="width:400px; text-align:left;">Description</th>
+          <th style="width:400px; text-align:left">Author</th>
+          <th style="width:400px; text-align:left;">Source URL</th>
         </tr>
         <tr th:each="source: ${news}">
-          <td><a th:href="${source.url}" th:text="${source.title}"></a></td>
-          <td th:text="${source.description}"></td>
-          <td th:text="${source.author}"></td>
+          <td style="width:400px;" th:text="${source.title}"></td>
+          <td style="width:400px; text-align:left" th:text="${source.description}"></td>
+          <td style="width:400px;text-align: left;" th:text="${source.author}"></td>
+          <td style="width:400px; text-align:left"><a th:href="${source.url}" th:text="${source.url}"></a></td>
         </tr>
       </table>
     </div></div></center>
-
-<style>
-  a{
-    color:lightskyblue;
-  }
-
-  table{
-    width: 100%;
-    font-size: 20px;
-  }
-
-  th{
-    width: 400px;
-    text-align: left;
-  }
-
-  td{
-    width: 400px;
-    text-align: left;
-  }
-
-  .button {
-    background: rgba(46, 49, 49, 1); /* Green */
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  .button1{
-    border-radius: 12px;
-  }
-
-  .button2{
-    border-radius: 12px;
-  }
-
-  .button3{
-    border-radius: 12px;
-  }
-
-  .button4{
-    border-radius: 12px;
-  }
-
-  .button5{
-    border-radius: 12px;
-  }
-</style>
-
 </body>
 </html>

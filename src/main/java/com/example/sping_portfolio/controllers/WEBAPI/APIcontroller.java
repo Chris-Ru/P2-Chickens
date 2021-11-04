@@ -40,6 +40,7 @@ public class APIcontroller {
         JSONObject jo = (JSONObject) obj;
 
         System.out.println(jo.get("totalResults"));
+        System.out.println(jo.get("articles"));
         model.addAttribute("news", jo.get("articles"));
 
 //        // https://rapidapi.com/spamakashrajtech/api/corona-virus-world-and-india-data/
