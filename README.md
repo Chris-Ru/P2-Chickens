@@ -1,5 +1,5 @@
 # Welcome!
-Welcome to our projectL We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](https://p2-chickens.cf). If you want to download our code, just use intellij to run our springboot web server.
+Welcome to our projectL We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](https://p2-chickens.cf:5000). If you want to download our code, just use intellij to run our springboot web server.
 
 ## Here are the project's contributors!
 ### Scrum Team Name: P2-Chickens
