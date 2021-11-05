@@ -12,13 +12,11 @@ Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?
 
 
 ## Description: 
-How to use our website:
-- On our home page, we have information about why our website is useful and why you should use it. We also have an input button where you could input in a news source you want us to review
-- On our about page on the navigation bar, we have all the contributors and their github pages
-- On our news tab, we have pages that can guide you on examples of credible news sources, their bias and how to find them, and real time examples of fake news compiled with an API
-- On our grid test tab, you can see what a complete news source table will be like, using our databse to rate all kinds of news sources for credibility and bias
-- On the rate news tab, there is an example of how the rating system works (this system is currently incomplete)
-- The journal and the minilab categories are then just for the contributors to show off their coding expertise!
+How to use our website: 
+- on our about page
+- hhe
+- dahfuha
+
 
 
 ## Hsitory of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
