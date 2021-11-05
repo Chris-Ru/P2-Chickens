@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "storage",
+      "type": "com.example.sping_portfolio.controllers.storage.StorageProperties",
+      "sourceType": "com.example.sping_portfolio.controllers.storage.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "storage.location",
+      "type": "java.lang.String",
+      "description": "Folder location for storing files",
+      "sourceType": "com.example.sping_portfolio.controllers.storage.StorageProperties"
+    }
+  ],
+  "hints": []
+}

@@ -13,7 +13,7 @@ import java.awt.Color;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
-@Getter 
+@Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
 public class ImageInfo {
     public int scale_factor;
     public String file, url;
@@ -84,7 +84,7 @@ public class ImageInfo {
         for (int i = 0; i < pixels.length; i += 4) {
             float val = 0;
             for (int y = 1; y < 4; y++) {
-                val += (pixels[i + y] & 0xFF) / 3.0; 
+                val += (pixels[i + y] & 0xFF) / 3.0; // The & 0xFF is a "bitwise and" https://www.geeksforgeeks.org/bitwise-operators-in-java/. Just divigin by 3 to get the average
             }
             pixels_int[i] = pixels[i]; // keep alpha the same
             pixels_int[i + 1] = (int) val;
@@ -97,10 +97,11 @@ public class ImageInfo {
     /**
      * param img
      * returns byte[]
-
+     * <p>
      * This method takes the buffered image and converts to a 1D array of byte values.
      * If the image is 100 by 300 pixels the length of array will be":
      * 100 x 300 x 4 = 120,000
+     * <p>
      * We multiply the total number of pixels by 4 because of ARGB (alpga, red, green, blue)
      */
     public byte[] image_to_pixels(BufferedImage img) throws IOException {
