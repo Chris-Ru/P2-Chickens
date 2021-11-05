@@ -10,12 +10,13 @@ Dylan|||dylanroman|[Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?ca
 Sam|||samkoenig9|[Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9)|[Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9)|[Sam](https://github.com/samkoenig9)
 Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)|[Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)|[Shekar](https://github.com/shekark642)
 
-## Journals
-- [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
-- [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
 ## Description: 
 How to use our website: 
+- on our about page
+- hhe
+- dahfuha
+
 
 
 ## Hsitory of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
