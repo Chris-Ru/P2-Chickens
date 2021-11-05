@@ -13,10 +13,7 @@ public class summation extends backend{
 
     @Override
     public int findsum() {
-        while (this.num1 > 0) {
-            this.summ = this.summ + this.num1;
-            this.num1 = this.num1 - 1;
-        }
+        this.summ = this.summ / 2;
         return summ;
     }
 
@@ -29,3 +26,6 @@ public class summation extends backend{
 
 
     }
+            ///while (this.num1 > 0) {
+                 ///   this.summ = this.summ + this.num1;
+               ///     this.num1 = this.num1 - 1;
