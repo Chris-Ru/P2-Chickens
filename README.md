@@ -1,5 +1,5 @@
 # Welcome!
-Welcome to our projectL We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](https://www.p2-chickens.cf)
+Welcome to our projectL We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](https://p2-chickens.cf)
 
 ## Here are the project's contributors!
 ### Scrum Team Name: P2-Chickens
