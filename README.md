@@ -14,18 +14,11 @@ Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?
 - [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
 - [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
-## Description:
+## Description: 
+How to use our website: 
 
-### Scrum Team Name: P2-Chickens
-Names|Scrum Board|Repo Contributors Graph|Github ID|Filter Scrum board by individual (assignee)|Filter GitHub commits by contributor|Show GitHub profile for individual
----|---|---|---|---|---|---
-Chris|[Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)|[GitHub repo contributors](https://github.com/Chris-Ru/P2-Chickens/graphs/contributors)|Chris-Ru|[Chris](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Achris-ru)|[Chris](https://github.com/Chris-Ru/P2-Chickens/commits?author=Chris-Ru)|[Chris](https://github.com/Chris-Ru)
-Dylan|||dylanroman|[Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Adylanroman)|[Dylan](https://github.com/Chris-Ru/P2-Chickens/commits?author=dylanroman)|[Dylan](https://github.com/dylanroman)
-Sam|||samkoenig9|[Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9)|[Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9)|[Sam](https://github.com/samkoenig9)
-Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)|[Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)|[Shekar](https://github.com/shekark642)
 
-## Time Box
-
+## Hsitory of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
 Week #|Artifacts
 ---|---
 Week 11|[N@tM Prep with 3 Technicals](https://github.com/Chris-Ru/P2-Chickens/issues/40)
@@ -40,8 +33,12 @@ Week 3|Work on [Bits Minilab](https://github.com/Chris-Ru/P2-Chickens/blob/main/
 Week 2|[Hackathon 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab1.html) with Birds and Greet
 Week 1|Start [Journal CS](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing) and [Journal DS](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit), and [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)
 
-## Model Improvement w/ videos
 
+## Journals
+- [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
+- [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
+
+## Model Improvement w/ videos
 Contributor|Issue|Video|Description
 ---|---|---|---
 Chris|[Link](https://github.com/Chris-Ru/P2-Chickens/issues/31)|[Video](https://www.youtube.com/watch?v=bnaKwuTJoFw&feature=youtu.be)|Clone rgb code, implement into aboutus page, create grayscale html page
