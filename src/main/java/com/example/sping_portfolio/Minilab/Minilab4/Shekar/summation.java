@@ -13,7 +13,7 @@ public class summation extends backend{
 
     @Override
     public int findsum() {
-        this.summ = this.summ / 2;
+        this.summ = (this.summ + 50) / 2;
         return summ;
     }
 

@@ -12,7 +12,7 @@ import org.springframework.ui.Model;
 public class SKcontroller {
     @GetMapping("/backend")
     //@RequestParam pulls data from frontend
-    public String backend(@RequestParam(name="num1", required=false, defaultValue="0") int num1,
+    public String backend(@RequestParam(name="num1", required=false, defaultValue="50") int num1,
                       Model model){
 
 
