@@ -40,32 +40,7 @@ public class APIcontroller {
         JSONObject jo = (JSONObject) obj;
 
         System.out.println(jo.get("totalResults"));
-        System.out.println(jo.get("articles"));
         model.addAttribute("news", jo.get("articles"));
-
-//        // https://rapidapi.com/spamakashrajtech/api/corona-virus-world-and-india-data/
-//        //rapidapi setup:
-//        HttpRequest request = HttpRequest.newBuilder()
-//                .uri(URI.create("https://tidalwaves-news-analytics2.p.rapidapi.com/stories/latest?withArticles=true"))
-//                .header("x-rapidapi-host", "tidalwaves-news-analytics2.p.rapidapi.com")
-////                .header("x-rapidapi-key", "42f28884f0msh2ee7d88bea53b8dp146d11jsn2587c1474f6f")
-//                .header("x-rapidapi-key", "9a13df1758msh4c55b0d4022962bp1dd54djsn6a531ba096f8")
-////                .header("x-rapidapi-key", "00ccce1983msh870532702332d54p113f94jsn9fd7d405018d")
-//                .method("GET", HttpRequest.BodyPublishers.noBody())
-//                .build();
-//        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-//
-//        //alternative #1: convert response.body() to java hash map
-//        var map = new ObjectMapper().readValue(response.body(), HashMap.class);
-//
-//        //alternative #2: convert response.body() to JSON object
-//        System.out.println(response.body());
-//        Object obj = new JSONParser().parse(response.body());
-//        JSONObject jo = (JSONObject) obj;
-//
-//        System.out.println(jo.get("data"));
-//        model.addAttribute("news", jo.get("data"));
-
 
         return "project/News";
     }
