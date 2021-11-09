@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class FeedbackController {
@@ -14,18 +15,17 @@ public class FeedbackController {
     private feedbackService feedbackService;
 
     @GetMapping("/feedback")
-    public String feed(Model model) {
+    public String feed(@RequestParam(name = "title", required = false) String title,
+                       @RequestParam(name = "positive", required = false) int positive,
+                       @RequestParam(name = "body", required = false) String body,
+                       @RequestParam(name = "user", required = false) String user,
+                       Model model) {
 
         //query feedback
         model.addAttribute("feedQuery", feedbackService.readFeedback());
 
 
         //add feedback
-        String title = "test";
-        int positive = 0;
-        String body = "test body";
-        String user = "test user";
-
         feedback newFeed = new feedback();
         newFeed.setTitle(title);
         newFeed.setPositive(positive);
@@ -34,6 +34,5 @@ public class FeedbackController {
 
         //feedbackService.createFeedback(newFeed);
         return "project/feedback";
-
     }
 }
