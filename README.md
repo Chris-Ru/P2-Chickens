@@ -1,5 +1,5 @@
 # Welcome!
-Welcome to our projectL We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](http://p2-chickens.cf:5000). If you want to download our code, just use intellij to run our springboot web server.
+Welcome to our project. We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](http://p2-chickens.cf:5000). If you want to download our code, just use intellij to run our springboot web server.
 
 ## Goals For Trimester 2
 Names|In going ending tri 1 and going into tri 2, I will prepare myself by using professional websites as an example to create a better project that will exceed and expand my capacity to code. In working on professionalism in the field of coding, usefulness and efficiency of the project within the "real world" will affect my ability to obtain a sponsor based on what will be proposed.|How can I use computing to build something that is fun for me, as well as leave a legacy for future DNHS students?|How do I prepare myself and group for a 3rd Trimester project and obtain a sponsor?
