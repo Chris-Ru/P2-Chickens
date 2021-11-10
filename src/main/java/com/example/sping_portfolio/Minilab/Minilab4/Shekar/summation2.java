@@ -1,17 +1,19 @@
 package com.example.sping_portfolio.Minilab.Minilab4.Shekar;
 
-public class sigma {
+public class summation2 {
     private int summ;
     private int num1;
 
     //constructor
-    public sigma(int num1) {
+    public summation2(int num1) {
         this.num1 = num1;
         this.summ = num1;
     }
 
+    public int value=72;
+    public int number=5;
     public int sigma() {
-        this.summ = (this.summ + 50) / 3;
+        this.summ = (this.summ + (value*number)) / (number+1);
         return summ;
     }
 }

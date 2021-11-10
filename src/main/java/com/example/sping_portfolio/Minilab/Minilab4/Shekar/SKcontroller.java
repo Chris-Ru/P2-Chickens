@@ -17,7 +17,7 @@ public class SKcontroller {
 
 
         summation mySum = new summation(num1);
-        sigma mySigma = new sigma(num2);
+        summation2 mySigma = new summation2(num2);
 
         model.addAttribute("sum", mySum.findsum());
         model.addAttribute("sum2", mySigma.sigma());
