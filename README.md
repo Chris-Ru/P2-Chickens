@@ -1,6 +1,10 @@
 # Welcome!
 Welcome to our project. We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](http://p2-chickens.cf:5000). If you want to download our code, just use intellij to run our springboot web server.
 
+## Journals
+- [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
+- [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
+
 ## Goals For Trimester 2 with [pictures from N@tM](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.txbr9gbplysd)
 Names|How can I use computing to help me as a student in other classes?  How can my computing work and projects help me study my other subjects and interests?|How can I use computing to build something that is fun for me, as well as leave a legacy for future DNHS students?|How do I prepare myself and group for a 3rd Trimester project and obtain a sponsor?|N@tM slack reflection in general channel
 ---|---|---|---|---
@@ -46,11 +50,6 @@ Week 4|Create [video](https://drive.google.com/file/d/1MVSilXfkMNKaiN2hy5tN13f6u
 Week 3|Work on [Bits Minilab](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab2.html)
 Week 2|[Hackathon 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab1.html) with Birds and Greet
 Week 1|Start [Journal CS](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing) and [Journal DS](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit), and [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)
-
-
-## Journals
-- [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
-- [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
 
 ## Model Improvement w/ videos
 Contributor|Issue|Video|Description
