@@ -34,6 +34,7 @@ How to use our website:
 ## Hsitory of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
 Week #|Artifacts
 ---|---
+Week 12|N@tM with [pictures](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.txbr9gbplysd)
 Week 11|[N@tM Prep with 3 Technicals](https://github.com/Chris-Ru/P2-Chickens/issues/40)
 Week 10|Ascii Art Minilab; [Chris+Dylan Example](https://github.com/Chris-Ru/P2-Chickens/tree/main/src/main/java/com/example/sping_portfolio/Minilab/Chris_Dylan_ascii); [shekar/sam example](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/Minilab/shekarsamascii.java)
 Week 9|[Issues with artifacts](https://github.com/Chris-Ru/P2-Chickens/issues/40)
