@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+<head><div layout:fragment="metadata" th:remove="tag">
+    <meta charset="UTF-8">
+    <title>Chris Individual</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></div></head>
+
+<body style="background-color: #6084a3;"><div layout:fragment="content" th:remove="tag">
+
+    <div class="contact" style="height: 35vh;">
+        <div class="col-md-6">
+            <h3 style = "padding-top: 30px">Enter a Score (Washington Post)</h3>
+            <p> Type in a score for this news source to rate it</p>
+            <form id="Form" action="" method="GET">
+                <input name="num1" placeholder="number from 1-100" id="num1" type="text">
+                <button>Go</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="contact" style="height: 35vh;">
+        <div class="col-md-6">
+            <h3 style = "padding-top: 30px">Enter a Score (Fox News)</h3>
+            <p> Type in a score for this news source to rate it</p>
+            <form id="Form" action="" method="GET">
+                <input name="num2" placeholder="number from 1-100" id="num2" type="text">
+                <button>Go</button>
+            </form>
+        </div>
+    </div>
+
+    <center><div class="ns-card">
+        <h1 style="padding-bottom: 20px;">News Source Bias</h1>
+        <table style="width:100%; font-size: 30px;">
+            <tr>
+                <th>News Source</th>
+                <th>Political Bias</th>
+                <th>Example</th>
+                <th>Rating</th>
+                <th>Number of Reviews</th>
+
+            </tr>
+            <tr>
+                <td>Washington Post</td>
+                <td>Slight Left</td>
+                <td><a href="https://www.cnn.com/2021/09/12/asia/north-korea-missile-launch-new-intl/index.html">Article</a></td>
+                <td><p th:text="${sum}" style="font-size: 30px"></p> </td>
+                <td>1</td>
+
+            </tr>
+            <tr>
+                <td>Fox News</td>
+                <td>Far Right</td>
+                <td><a href="https://www.cnn.com/2021/09/12/asia/north-korea-missile-launch-new-intl/index.html">Article</a></td>
+                <td><p th:text="${sum2}" style="font-size: 30px"></p> </td>
+                <td>5</td>
+
+            </tr>
+
+        </table>
+    </div></center>
+
+    <!-- End of body content specific to page -->
+</div></body>
+</html>
+
