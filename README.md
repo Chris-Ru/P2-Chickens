@@ -23,19 +23,7 @@ Dylan|||dylanroman|[Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?ca
 Sam|||samkoenig9|[Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9)|[Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9)|[Sam](https://github.com/samkoenig9)
 Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)|[Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)|[Shekar](https://github.com/shekark642)
 
-
-## Description: 
-How to use our website:
-- On our home page, we have information about why our website is useful and why you should use it. We also have an input button where you could input in a news source you want us to review
-- On our about page on the navigation bar, we have all the contributors and their github pages
-- On our news tab, we have pages that can guide you on examples of credible news sources, their bias and how to find them, and real time examples of fake news compiled with an API
-- On our grid test tab, you can see what a complete news source table will be like, using our databse to rate all kinds of news sources for credibility and bias
-- On the rate news tab, there is an example of how the rating system works (this system is currently incomplete)
-- The journal and the minilab categories are then just for the contributors to show off their coding expertise!
-
-
-
-## Hsitory of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
+## History of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
 Week #|Artifacts
 ---|---
 Week 12|N@tM with [pictures](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.txbr9gbplysd)
@@ -50,6 +38,15 @@ Week 4|Create [video](https://drive.google.com/file/d/1MVSilXfkMNKaiN2hy5tN13f6u
 Week 3|Work on [Bits Minilab](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab2.html)
 Week 2|[Hackathon 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab1.html) with Birds and Greet
 Week 1|Start [Journal CS](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing) and [Journal DS](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit), and [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)
+
+## Description: 
+How to use our website:
+- On our home page, we have information about why our website is useful and why you should use it. We also have an input button where you could input in a news source you want us to review
+- On our about page on the navigation bar, we have all the contributors and their github pages
+- On our news tab, we have pages that can guide you on examples of credible news sources, their bias and how to find them, and real time examples of fake news compiled with an API
+- On our grid test tab, you can see what a complete news source table will be like, using our databse to rate all kinds of news sources for credibility and bias
+- On the rate news tab, there is an example of how the rating system works (this system is currently incomplete)
+- The journal and the minilab categories are then just for the contributors to show off their coding expertise!
 
 ## Model Improvement w/ videos
 Contributor|Issue|Video|Description
