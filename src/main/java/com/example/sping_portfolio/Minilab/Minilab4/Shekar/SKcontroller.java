@@ -12,18 +12,20 @@ import org.springframework.ui.Model;
 public class SKcontroller {
     @GetMapping("/backend")
     //@RequestParam pulls data from frontend
-    public String backend(@RequestParam(name="num1", required=false, defaultValue="50") int num1,
+    public String backend(@RequestParam(name="num1", required=false, defaultValue="50") int num1, @RequestParam(name="num2", required=false, defaultValue="72") int num2,
                       Model model){
 
 
-
-        int num = num1;
-        summation mySum = new summation(num);
+        summation mySum = new summation(num1);
+        sigma mySigma = new sigma(num2);
 
         model.addAttribute("sum", mySum.findsum());
+        model.addAttribute("sum2", mySigma.sigma());
 
         //renders  template
-        return "Minilab/shekarminilab";
+        return "Minilab/ratingsource";
     }
+
+
 
 }
