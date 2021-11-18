@@ -24,6 +24,7 @@ public class FeedbackController {
         //query feedback
         model.addAttribute("feedQuery", feedbackService.readFeedback());
 
+        System.out.println(feedbackService.readFeedback());
 
         //add feedback
         feedback newFeed = new feedback();

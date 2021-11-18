@@ -1,5 +1,18 @@
 # Welcome!
-Welcome to our projectL We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](http://p2-chickens.cf:5000). If you want to download our code, just use intellij to run our springboot web server.
+Welcome to our project. We are going to provide a website of service that will rate news sources, find fake news, and help people watch out for uncredible or fake news. In order to run, simply go to [this site](http://p2-chickens.cf:5000). If you want to download our code, just use intellij to run our springboot web server.
+
+## Journals
+- [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
+- [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
+
+## Goals For Trimester 2 with [pictures from N@tM](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.txbr9gbplysd)
+Names|How can I use computing to help me as a student in other classes?  How can my computing work and projects help me study my other subjects and interests?|How can I use computing to build something that is fun for me, as well as leave a legacy for future DNHS students?|How do I prepare myself and group for a 3rd Trimester project and obtain a sponsor?|N@tM slack reflection in general channel
+---|---|---|---|---
+Chris|In my use of computing, I can apply this to other classes by allowing me to create a poll, or randomizer to select an item and be able to use CRUD to update a database or array or data. This can also help me study for other subjects or interests by allowing me to make apps or websites that can help me to study with online flashcards.|I can use computing to build something fun such as making a banking website to test my coding capabilities, or collaborate on making an app that can help others in the future such as home automation or IoT apps for "smart" devices|In going ending tri 1 and going into tri 2 with tri 3 after, I will prepare myself by using professional websites as an example to create a better project that will exceed and expand my capacity to code. In working on professionalism in the field of coding, usefulness and efficiency of the project within the "real world" will affect my ability to obtain a sponsor based on what will be proposed.|[N@tM response](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636572115041100)
+Dylan|I can use the problem solving  and research skills I learned from computing to help me when learning new material. I can make programs to help me organize my homework and schedule.|I can spend the next two trimesters making projects that can be used, at least in concept, on the nighthawk coders website to help new students.|I will start trying to create and look for connections to make finding a sponsor easier when the time comes.|[N@tM response](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636572614041600)
+Sam|I can use my skills from computer science in other classes in many different ways. I can create a program that can simulate an event, choose something random, or gather information. I can even make a website that implements these programs into it.|I can create something that I believe is useful and something that I know will be worth it and useful to other people. If I know It will end up great then it’s something that will be fun for me.|I can prepare myself and my future group to obtain a sponsor by making our site useful and look professional. If our site doesn’t work properly or doesn’t look good then it’s likely that we won’t be able to gain a sponsor.|[N@tM response](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636572397041500)
+Shekar|Computing, especially working together on a group project can help me learn how to work with a team. Teamwork is important for all classes since it is good to collaborate when doing projects to make sure that work is distributed, and yield is maximized. Since my interests lay in collaborative environments, I think that teamwork can help me a lot with being successful. Coding also helps you think in straight lines and be logical. This can apply in any aspect since being able to logically process your way to an answer is important in any subject|I can build a project for future DNHS students to use. The project can be fun for me since I have interests in helping others and making a collaborative project that doesn't just apply to me, but to anyone who is using the website. I can implement a learning process as well as an aspect or theme that relates to me so I can have fun while making an impact on this project that will be shared|I can maybe start a project that has a purpose very specific to a small business or company. By doing this, I can maybe achieve sponsorship since that small business will recognize a talent and sponsor the project we are building. We have to make sure our project applies to them however, or our project won't have any use and they won't need to sponsor us| [N@tM response](https://cs-a-hq.slack.com/archives/CRDESSVA5/p1636572886041800)
+
 
 ## Here are the project's contributors!
 ### Scrum Team Name: P2-Chickens
@@ -10,21 +23,10 @@ Dylan|||dylanroman|[Dylan](https://github.com/Chris-Ru/P2-Chickens/projects/1?ca
 Sam|||samkoenig9|[Sam](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Asamkoenig9)|[Sam](https://github.com/Chris-Ru/P2-Chickens/commits?author=samkoenig9)|[Sam](https://github.com/samkoenig9)
 Shekar|||shekark642|[Shekar](https://github.com/Chris-Ru/P2-Chickens/projects/1?card_filter_query=assignee%3Ashekark642)|[Shekar](https://github.com/Chris-Ru/P2-Chickens/commits?author=shekark642)|[Shekar](https://github.com/shekark642)
 
-
-## Description: 
-How to use our website:
-- On our home page, we have information about why our website is useful and why you should use it. We also have an input button where you could input in a news source you want us to review
-- On our about page on the navigation bar, we have all the contributors and their github pages
-- On our news tab, we have pages that can guide you on examples of credible news sources, their bias and how to find them, and real time examples of fake news compiled with an API
-- On our grid test tab, you can see what a complete news source table will be like, using our databse to rate all kinds of news sources for credibility and bias
-- On the rate news tab, there is an example of how the rating system works (this system is currently incomplete)
-- The journal and the minilab categories are then just for the contributors to show off their coding expertise!
-
-
-
-## Hsitory of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
+## History of the accomplishments done by the contributors for each of the 12 weeks that our contributors worked on the project
 Week #|Artifacts
 ---|---
+Week 12|N@tM with [pictures](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit#bookmark=id.txbr9gbplysd)
 Week 11|[N@tM Prep with 3 Technicals](https://github.com/Chris-Ru/P2-Chickens/issues/40)
 Week 10|Ascii Art Minilab; [Chris+Dylan Example](https://github.com/Chris-Ru/P2-Chickens/tree/main/src/main/java/com/example/sping_portfolio/Minilab/Chris_Dylan_ascii); [shekar/sam example](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/java/com/example/sping_portfolio/Minilab/shekarsamascii.java)
 Week 9|[Issues with artifacts](https://github.com/Chris-Ru/P2-Chickens/issues/40)
@@ -37,10 +39,14 @@ Week 3|Work on [Bits Minilab](https://github.com/Chris-Ru/P2-Chickens/blob/main/
 Week 2|[Hackathon 1](https://github.com/Chris-Ru/P2-Chickens/blob/main/src/main/resources/templates/Minilab/minilab1.html) with Birds and Greet
 Week 1|Start [Journal CS](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing) and [Journal DS](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit), and [Scrum Board](https://github.com/Chris-Ru/P2-Chickens/projects/1)
 
-
-## Journals
-- [Shekar + Chris](https://docs.google.com/document/d/1lu7N6icRQ2mdnQk3K3PgXMYV9513hccZgVbMbaTcxqM/edit?usp=sharing)
-- [Sam + Dylan](https://docs.google.com/document/d/1P2mfEML9sj1UFm86PVjEKkLhqKaHHdOsTLuppHwZbRw/edit)
+## Description: 
+How to use our website:
+- On our home page, we have information about why our website is useful and why you should use it. We also have an input button where you could input in a news source you want us to review
+- On our about page on the navigation bar, we have all the contributors and their github pages
+- On our news tab, we have pages that can guide you on examples of credible news sources, their bias and how to find them, and real time examples of fake news compiled with an API
+- On our grid test tab, you can see what a complete news source table will be like, using our databse to rate all kinds of news sources for credibility and bias
+- On the rate news tab, there is an example of how the rating system works (this system is currently incomplete)
+- The journal and the minilab categories are then just for the contributors to show off their coding expertise!
 
 ## Model Improvement w/ videos
 Contributor|Issue|Video|Description

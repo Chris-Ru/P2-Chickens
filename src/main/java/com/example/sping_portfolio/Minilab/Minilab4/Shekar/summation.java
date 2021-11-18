@@ -11,10 +11,13 @@ public class summation extends backend{
         this.summ = num1;
     }
 
+    public int value = 50;
+    public int number = 1;
     @Override
     public int findsum() {
-        this.summ = (this.summ + 50) / 2;
+        this.summ = (this.summ + value) / (number+1);
         return summ;
+
     }
 
 
