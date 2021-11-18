@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>Palindrome Algos</title>
+    </div>
+</head>
+
+<body style="background-color: #6084a3">
+<div layout:fragment="content" th:remove="tag">
+    `<div class="container">
+
+    <div class="center-block" style="margin: 2% 3% 3%;">
+        <!-- Title -->
+        <div class="col-12" style="text-align: center; color: white;">
+            <h1><strong>Palindrome in 4 ways</strong></h1>
+        </div>
+
+        <!-- Form and Action -->
+        <div class="jumbotron text-center row">
+            <!-- Input -->
+            <div class="col-md-6">
+                <h3>Type a word</h3>
+                <form id="fibForm" action="" method="GET">
+                    <input name="word" id="word" type="text">
+                    <button>Go!</button>
+                </form>
+            </div>
+            <!-- Output/Result -->
+            <div class="col-md-6">
+                <h1>Outputs</h1>
+                <h6 th:text="${word}"></h6>
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Method</th>
+                        <th scope="col">Palindrome?</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                    <tr th:each="palindrome : ${palindromes}">
+                        <td th:text="${palindrome.getName()}"></td>
+                        <td th:text="${palindrome.getTOrF()}"></td>
+                        <td th:text="${palindrome.getTimeElapsed()}"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-12" style="text-align: left; ">
+
+        </div>
+    </div>
+</div>
+    <style>
+        table, td, th {
+            border: 1px solid var(--dblue);
+        }
+        td, th {
+            text-align:left;
+        }
+    </style>
+</div>`
+</body>
+
+</html>

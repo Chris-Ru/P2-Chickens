@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>About Us</title>
+  <link th:href="@{/styles/styles.css}" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ecb5994ee2.js" crossorigin="anonymous"></script>
+</div>
+  <title>...</title></head>
+
+<body class="about-bg"><div layout:fragment="content" th:remove="tag">
+  <h1 class="about-header">About Us</h1>
+  <p class="about-body"><a href="/aboutus">Grayscale About US</a></p>
+  <p class="about-body">Collaborators On This Project</p>
+
+  <div class="row justify-content-center">
+    <div class="column">
+      <img src="" th:src="${str}" width="50px" height="50px" class="face" alt="shekar">
+      <p class="face-name">Shekar Krishnamoorthy</p>
+      <p class="face-text">Navigator</p>
+      <dl>
+        <dt>TBD</dt>
+        <dd>Desc. soon</dd>
+      </dl>
+      <center><a href="https://github.com/shekark642" style="text-decoration: none; color:black;"><i class="git fab fa-github fa-2x"></i></a></center>
+    </div>
+    <div class="column">
+      <img src="" th:src="${str1}" width="50px" height="50px" class="face" alt="chris">
+      <p class="face-name">Chris Rubin</p>
+      <p class="face-text">Developer</p>
+      <dl>
+        <dt>TBD</dt>
+        <dd>Desc. soon</dd>
+      </dl>
+      <center><a href="https://github.com/Chris-Ru" style="text-decoration: none; color:black;"><i class="git fab fa-github fa-2x"></i></a></center>
+    </div>
+    <div class="column">
+      <img src="" th:src="${str}" width="50px" height="50px" class="face" alt="sam">
+      <p class="face-name">Sam Koenig</p>
+      <p class="face-text">Designer</p>
+      <dl>
+        <dt>TBD</dt>
+        <dd>Desc. soon</dd>
+      </dl>
+      <center><a href="https://github.com/samkoenig9" style="text-decoration: none; color:black;"><i class="git fab fa-github fa-2x"></i></a></center>
+    </div>
+    <div class="column">
+      <img src="" th:src="${str1}" width="50px" height="50px" class="face" alt="dylan">
+      <p class="face-name">Dylan Roman</p>
+      <p class="face-text">Tech Lead</p>
+      <dl>
+        <dt>TBD</dt>
+        <dd>Desc. soon</dd>
+      </dl>
+      <center><a href="https://github.com/dylanroman" style="text-decoration: none; color:black;"><i class="git fab fa-github fa-2x"></i></a></center>
+    </div>
+  </div>
+</div>
+</body>
+</html>

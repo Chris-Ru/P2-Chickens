@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>404 error</title>
+    <link th:href="@{../../styles/styles.css}" rel="stylesheet" />
+    <!-- End of head content specific to page -->
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body style="background-color: rgb(82, 135, 153);"><div layout:fragment="content" th:remove="tag">
+    <div class="index">
+        <div class="center-block" style="margin: 2% 10% 10%; font-family: gilroy,serif;">
+            <div class="col-12" style="text-align: center;">
+                <h1><strong>A 404 error occurred</strong></h1>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid" style="text-align: center; border-radius: 20px; background-color: rgb(127, 147, 160);">
+                <h2>This page does not exist.</h2>
+                <a href="/" style="color: blue; font-size: 20px;">Go Home</a><br>
+                <img src="/src/main/staticin/static/images/burnt.jpeg" th:src="@{/images/burnt.jpeg}" style="border-radius: 20px;" width="50%" height="50%" alt="burntchicken">
+            </div>
+
+        </div>
+    </div>
+</div></body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>...</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></head>
+<!-- Begin navigation fragments -->
+<nav class="cnav navbar navbar-expand" th:fragment="header">
+    <a href="/">
+        <img src="/src/main/staticin/static/images/logo.png" th:src="@{/images/logo.png}" width="auto" height="50" class="d-inline-block align-center" alt="logo">
+    </a>
+    <a href="/" style="text-decoration: none;"><h3 class="nav-link navtext">P2-Chickens</h3></a>
+
+    <!-- Bootstrap menus -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <!--root menu -->
+            <li class="nav-item active">
+                <a class="nav-link navtext" href="/aboutus">About Us <span class="sr-only">(current)</span></a>
+            </li>
+            <li style="cursor: default">|</li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbarNews" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    News
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/NewsSource">News Source</a>
+                    <a class="dropdown-item" href="/news">News with "fake"</a>
+                    <a class="dropdown-item" href="/key">Categorized News</a>
+                </div>
+            </li>
+            <li style="cursor: default">|</li>
+            <li class="nav-item active">
+                <a class="nav-link navtext" href="/backend">Rate News<span class="sr-only">(current)</span></a>
+            </li>
+            <li style="cursor: default">|</li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbarJournal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Pair Journals
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/cs">Chris + Shekar</a>
+                    <a class="dropdown-item" href="/ds">Dylan + Sam</a>
+                </div>
+            </li>
+            <li style="cursor: default">|</li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Minilabs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/minilab1">Greet + Birds</a>
+                    <a class="dropdown-item" href="/binary">Binary</a>
+                    <a class="dropdown-item" href="/grayscale">Grayscale Converter</a>
+                    <a class="dropdown-item" href="/base64">RGB values in images</a>
+                    <a class="dropdown-item" href="/upload">Upload and Share Images</a>
+                </div>
+            </li>
+            <li style="cursor: default">|</li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navtext" href="#" id="navbarPal" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chris
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/palindrome">Abstract Palindrome</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="nav-link dropdown-toggle navtext" href="#" id="navbarnonab" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: unset">
+                        Non-Abstract Palindromes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/palindrome1">Palindrome1</a>
+                        <a class="dropdown-item" href="/palindrome2">Palindrome2</a>
+                        <a class="dropdown-item" href="/palindrome3">Palindrome3</a>
+                        <a class="dropdown-item" href="/palindrome4">Palindrome4</a>
+                    </div>
+                </div>
+            </li>
+            <li style="cursor: default">|</li>
+            <li class="nav-item active">
+                <a class="nav-link navtext" href="/feedback">Feedback <span class="sr-only">(current)</span></a>
+            </li>
+            <li style="cursor: default">|</li>
+        </ul>
+    </div>
+</nav>
+<!-- Begin navigation fragments -->
+</body>
+</html>

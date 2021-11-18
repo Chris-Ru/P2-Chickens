@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+    <div th:replace="fragments/head1 :: header"></div>
+    <div layout:fragment="metadata"></div>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
+</head>
+
+<!-- <head> -->
+<div layout:fragment="metadata" th:remove="tag">
+    <title>NewsAPI News newsapi</title>
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:right;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+    </style>
+</div>
+
+<body class="ns-bg">
+<div th:replace="fragments/nav1 :: header"></div>
+<div layout:fragment="content"></div>
+<div layout:fragment="script"></div>
+<h1 style="text-align: center; margin-top: 1%"><strong id=>NewsAPI News newsapi.org</strong></h1>
+<form style="text-align: center" action="/news" method="GET" id="refreshpage">
+    <button>Refresh!</button>
+</form>
+
+<center>
+    <div class="container-fluid">
+        <div class="ns-card">
+            <h1>Articles on Fake News</h1>
+            <table>
+                <tr>
+                    <th>Latest News Article Name + URL</th>
+                    <th>Description</th>
+                    <th>Author</th>
+                </tr>
+                <tr th:each="source: ${news}">
+                    <td><a th:href="${source.url}" th:text="${source.title}"></a></td>
+                    <td th:text="${source.description}"></td>
+                    <td th:text="${source.author}"></td>
+                </tr>
+            </table>
+        </div></div></center>
+
+<style>
+    a{
+        color:lightskyblue;
+    }
+
+    table{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    th{
+        width: 400px;
+        text-align: left;
+    }
+
+    td{
+        width: 400px;
+        text-align: left;
+    }
+</style>
+</body>
+</html>
