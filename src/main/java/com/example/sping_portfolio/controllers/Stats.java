@@ -17,7 +17,7 @@ public class Stats {
         return "calculations"; // returns HTML VIEW (greeting)
     }
 
-    @GetMapping("/data")
+    @GetMapping("/conclusion")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String data() {
         return "data"; // returns HTML VIEW (greeting)
