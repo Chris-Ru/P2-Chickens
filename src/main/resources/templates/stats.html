@@ -1,0 +1,87 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Index Page</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body>
+<div id="spring_intro" class="articles" style="margin: 30px;">
+    <div layout:fragment="content" th:remove="tag">
+
+
+        <div class="b1-bg"></div>
+        <div id="block1" class="block1">
+            <div class="welcome">
+                <p class="welcome-text">Welcome to</p>
+                <p class="welcome-subtext">P5 Stats Project</p>
+                <div class="b1-arrow bounce">
+                    <a class="fa fa-arrow-down fa-2x" href="#block2" style="text-decoration: none;"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="block2" class="block2">
+            <div class="b2-content">
+                <center><div class="b2-box">
+                    <div class="b2-left">
+                        <h2 class="h3-scale"><strong>What is this?</strong></h2>
+                        <p style="margin-top: 10%">- Our project is meant to determine whether Seniors at DNHS suffer from senioritis
+                            <br>- We are giving information of the mean motivation of seniors and non-seniors</p>
+                    </div>
+                    <div class="b2-right">
+                        <h2 class="h3-scale"><strong>Why do we need this?</strong></h2>
+                        <p style="margin-top: 10%">- Falling into the belief of senioritis may cause a lack of motivation and careless behavior for seniors
+                            <br>- Senioritis can cause immediate harm and influence a student's attitude towards school</p>
+                    </div>
+                </div></center>
+            </div>
+            <div class="arrow bounce b2-arrow">
+                <a class="fa fa-arrow-down" href="#block3" style="text-decoration: none;"></a>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="block3" class="block3">
+            <div class="b2-content">
+                <center><div class="b3-box">
+                    <div>
+                        <h1 class="h3-scale"><strong>Conclusion</strong></h1>
+                        <h3 style="margin-top: 10%">- Our project is meant to determine whether Seniors at DNHS suffer from senioritis
+                          <br>- We are giving information of the mean motivation of seniors and non-seniors</h3>
+                    </div>
+
+<!--                    <div class="b2-left">-->
+<!--                        <h2 class="h3-scale"><strong>What is this?</strong></h2>-->
+<!--                        <p style="margin-top: 10%">- Our project is meant to determine whether Seniors at DNHS suffer from senioritis-->
+<!--                            <br>- We are giving information of the mean motivation of seniors and non-seniors</p>-->
+<!--                    </div>-->
+<!--                    <div class="b2-right">-->
+<!--                        <h2 class="h3-scale"><strong>Why do we need this?</strong></h2>-->
+<!--                        <p style="margin-top: 10%">- Falling into the belief of senioritis may cause a lack of motivation and careless behavior for seniors-->
+<!--                            <br>- Senioritis can cause immediate harm and influence a student's attitude towards school</p>-->
+<!--                    </div>-->
+                </div></center>
+            </div>
+            <div style="display: flex; margin-left: 42%; margin-top: 10%;">
+                <div class="b3-arrow bounce2">
+                    <a class="fa fa-arrow-up" href="#block1" style="text-decoration: none; transform: scale(.7);"></a>
+                </div>
+                <a href="#block1" style="text-decoration: none;"><p style="text-shadow: 2px 2px 5px #202020;">Back to Top</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- End of body content specific to page -->
+</body>
+</html>

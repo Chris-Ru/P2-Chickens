@@ -262,6 +262,19 @@ a:hover{
   z-index: 1;
 }
 
+.b3-box {
+  position: relative;
+  /* background: rgba(0,0,0,.5); */
+  background: rgba(31, 31, 31, 0.8);
+  height:62vh;
+  width:70%;
+  border-radius: 40px;
+  padding: 30px;
+  font-size: 25px;
+  backdrop-filter: blur(7px);
+  z-index: 1;
+}
+
 .b2-left {
   float:left;
   width: 45%;
