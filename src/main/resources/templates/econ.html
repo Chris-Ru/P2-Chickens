@@ -1,17 +1,25 @@
-<!DOCTYPE html>
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layoute}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Stats Calculations</title>
-    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
-</div></head>
+    <title>Index Page</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat" />
 
-<body style="justify-content: center;"><div layout:fragment="content" th:remove="tag">
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQyeR4ZlepYJEoObf2aiprICjiOsJbEZA6UiWf-Z5A6dYgDkxA6wNgAEKVc_pN1C_6d-vkm0myHL6PC/pub?embedded=true" style="width: 1920px; height: 1080px; margin-top:-60px;overflow: hidden; border: none;"></iframe>
-</div></body>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
+    </div>
+    <title></title>
+</head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body style="background: gray; overflow: hidden;">
+<div layout:fragment="content" th:remove="tag">
+    <div style="margin-top: -4%;">
+        <iframe src="https://pub.lucidpress.com/aa6f71a6-36d6-47a0-a85c-6c27600ed5cd/" width="1920" height="980"></iframe>
+    </div>
+</div>
+</body>
 </html>
