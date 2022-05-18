@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+</head>
+<body>
+
+    <h1>User Feedback</h1>
+    <table>
+        <tr>
+            <th>Review Title</th>
+            <th>Reception</th>
+            <th>Body</th>
+            <th>User</th>
+        </tr>
+        <tr th:each="feedback: ${feedQuery}">
+            <td th:text="${feedback.title}"></td>
+            <!--
+            <td>
+
+            </td>
+            -->
+            <td th:text="${feedback.body}"></td>
+            <td th:text="${feedback.user}"></td>
+        </tr>
+    </table>
+
+</body>
+</html>
