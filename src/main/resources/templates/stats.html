@@ -1,0 +1,87 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Index Page</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" />
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body>
+<div id="spring_intro" class="articles" style="margin: 30px;">
+    <div layout:fragment="content" th:remove="tag">
+
+
+        <div class="b1-bg"></div>
+        <div id="block1" class="block1">
+            <div class="welcome">
+                <p class="welcome-text">The Outbreak of Senioritis: An Overview</p>
+                <div class="b1-arrow bounce">
+                    <a class="fa fa-arrow-down fa-2x" href="#block2" style="text-decoration: none;"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="block2" class="block2">
+            <div class="b2-content">
+                <center><div class="b3-box">
+                    <div>
+                        <h1 class="h3-scale"><strong>Our Mission:</strong></h1>
+                        <h5 style="margin-top: 10%"> A common problem that is negatively affecting the grades of Del Norte High School students is claimed to have
+                            <br>been infecting this year's graduating senior class. What is the name of this mystery disease?
+                            <br>Senioritis - an ailment that seems to negatively affect the attitude and grades of DNHS Seniors.
+                            <br>Seniors, who have already finished their college applications, feel like they have accomplished everything they need to
+                            <br>for the year, and don't feel as much pressure to continue striving for academic excellence. We wanted to prove whether or not seniors
+                            <br>experience a decrease in motivation for obtaining and keeping good grades, in contrast to their fellow underclassmen.
+                            <br>In our study, we asked 48 seniors and 42 non-seniors to rate their motivation level on a scale of 1-10.
+                        </h5>
+                    </div>
+                </div></center>
+            </div>
+            <div class="arrow bounce b2-arrow">
+                <a class="fa fa-arrow-down" href="#block3" style="text-decoration: none;"></a>
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="block3" class="block3">
+            <center><div class="b2-box">
+                <div class="b2-left">
+                    <h2 class="h3-scale"><strong>What is this? and Why do we need this?</strong></h2>
+                    <h5 style="margin-top: 10%"> Because of the negative consequences that a lower motivation has on a student, proving that
+                        <br>Senioritis is a legitimate disease can help in preventing its harmful effects. Falling into the belief that
+                        <br>seniors don't need to try for grades can cause a lack of motivation and careless behavior for seniors.
+                        <br>This may affect their mental health and physical health, harming the student's attitude towards school.
+                        <br>We want to raise awareness for future classes of Del Norte seniors, so they may be able to immunize themselves against Senioritis.
+                    </h5>
+                </div>
+                <div class="b2-right">
+                    <h2 class="h3-scale"><strong>Conclusion</strong></h2>
+                    <h5 style="margin-top: 10%">Going through the calculations, you would see that we ended up with a "p-value" of approximately 0. You may be thinking "woah woah woah. What is a p-value?"
+                        <br>Essentially, our p-value tells us the probability of our mean difference occurring just by random chance.
+                        <br>So, since our p-value is approximately 0, the mean difference we derived from our data (3.542) has a 0% chance of occurring
+                        <br>purely by chance. In other words, it is impossible for our mean difference to have occurred by accident.
+                        <br>So, since it is impossible for our data to have occurred by chance, we can assume that there is significant evidence that
+                        <br>points towards non-seniors having a significantly greater scholastic motivational level than the seniors at Del Norte High School.</h5>
+                </div>
+            </div></center>
+            <div style="display: flex; margin-left: 42%; margin-top: 10%;">
+                <div class="b3-arrow bounce2">
+                    <a class="fa fa-arrow-up" href="#block1" style="text-decoration: none; transform: scale(.7);"></a>
+                </div>
+                <a href="#block1" style="text-decoration: none;"><p style="text-shadow: 2px 2px 5px #202020;">Back to Top</p></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- End of body content specific to page -->
+</body>
+</html>

@@ -7,6 +7,25 @@ body{
   padding-top: 70px;
 }
 
+p {
+  font-family: Montserrat, sans-serif;
+}
+
+#textbox {display:flex; flex-flow:row wrap;}
+
+.alignleft {
+  width:33.33333%;
+  justify-content:left;
+}
+.aligncenter {
+  width:33.33333%;
+  justify-content:center;
+}
+.alignright {
+  width:33.33333%;
+  justify-content:right;
+}
+
 a {
   color:white;
 }
@@ -135,12 +154,14 @@ a:hover{
   position:relative;
   text-align: center;
   line-height: normal;
-  top: 25%;
 }
 
 .welcome-text {
+  font-family: Playfair Display, sans-serif;
   font-size: 110px;
   font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
 }
 
 .welcome-subtext {
@@ -214,9 +235,9 @@ a:hover{
   color:white;
   text-shadow: 2px 2px 5px #202020;
   /* background-color: #404040; */
-  background-image: url("../images/indexbg-blur.jpg");
+  background-image: url("../images/kanyemusk.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
@@ -224,15 +245,33 @@ a:hover{
   top: -70px;
 }
 
+.b1 {
+  color: black;
+  text-shadow: 2px 2px 5px #202020;
+   background-color: white;
+  /*background-image: url("../images/kanyemusk.jpg");*/
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+hr.new1 {
+  border-top: 1px solid black;
+  width: 75%;
+}
+
 .block2 {
   height: 100vh;
   position: relative;
   top: -70px;
   color:white;
-  background-image: url(../images/chickenbg.jpeg);
+  background-image: url("../images/kanye-west-kanye.gif");
   /* background: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%); */
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -253,6 +292,19 @@ a:hover{
   position: relative;
   /* background: rgba(0,0,0,.5); */
   background: linear-gradient(to right, rgba(48, 48, 48, 0.8) 50%, rgba(31, 31, 31, 0.8) 50%);
+  height:62vh;
+  width:70%;
+  border-radius: 40px;
+  padding: 30px;
+  font-size: 25px;
+  backdrop-filter: blur(7px);
+  z-index: 1;
+}
+
+.b3-box {
+  position: relative;
+  /* background: rgba(0,0,0,.5); */
+  background: rgba(31, 31, 31, 0.8);
   height:62vh;
   width:70%;
   border-radius: 40px;
@@ -288,10 +340,10 @@ a:hover{
   position: relative;
   top: -70px;
   color:white;
-  background-image: url(../images/grass_blur.jpg);
+  background-image: url("../images/kanye1.jpg");
   /* background-image: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%); */
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }

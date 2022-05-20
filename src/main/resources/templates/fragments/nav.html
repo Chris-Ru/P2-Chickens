@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>...</title>
+    <link th:href="@{/styles/styles.css}" rel="stylesheet" /></head>
+<!-- Begin navigation fragments -->
+<nav class="cnav navbar navbar-expand" th:fragment="header">
+    <a href="/stats">
+        <img th:src="@{images/stats.png}" width="auto" height="50" class="d-inline-block align-center" alt="logo">
+    </a>
+    <a href="/stats" style="text-decoration: none;"><h3 class="nav-link navtext">Statstical Data Analysis</h3></a>
+
+    <!-- Bootstrap menus -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <!--root menu -->
+            <li class="nav-item active">
+                <a class="nav-link navtext" href="/stats">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link navtext" href="/calculations">Calculations <span class="sr-only">(current)</span></a>
+            </li>
+            <li>
+                <a class="nav-link navtext" href="/conclusion">Conclusion <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Begin navigation fragments -->
+</body>
+</html>
